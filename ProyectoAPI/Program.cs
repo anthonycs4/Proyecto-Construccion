@@ -14,9 +14,9 @@ builder.Services.AddControllers();
 
 // Registrar servicios
 builder.Services.AddScoped<AuthService>(); // 🔹 Se registra el AuthService
-builder.Services.AddScoped<HospedajeService>();
 builder.Services.AddScoped<NegocioService>();
-
+builder.Services.AddScoped<NegocioService>();
+builder.Services.AddScoped<ServicioService>();
 
 // Configurar CORS
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";

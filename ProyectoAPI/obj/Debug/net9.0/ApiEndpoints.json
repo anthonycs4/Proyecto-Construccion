@@ -1,0 +1,275 @@
+[
+  {
+    "ContainingType": "ProyectoAPI.Controllers.NegocioController",
+    "Method": "GetNegocios",
+    "RelativePath": "api/negocios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.NegocioController",
+    "Method": "EliminarNegocio",
+    "RelativePath": "api/negocios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.NegocioController",
+    "Method": "ActualizarNegocio",
+    "RelativePath": "api/negocios/{idNegocio}/dueno/{idUsuario}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idNegocio",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "negocioDto",
+        "Type": "ProyectoAPI.DTOs.NegocioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.NegocioController",
+    "Method": "GetNegociosPorDueno",
+    "RelativePath": "api/negocios/dueno/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.NegocioController",
+    "Method": "RegistrarNegocio",
+    "RelativePath": "api/negocios/dueno/{usuarioId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "negocioDto",
+        "Type": "ProyectoAPI.DTOs.NegocioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ProductoController",
+    "Method": "Get",
+    "RelativePath": "api/productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ProductoController",
+    "Method": "Create",
+    "RelativePath": "api/productos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "ProyectoAPI.DTOs.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ProductoController",
+    "Method": "Get",
+    "RelativePath": "api/productos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ProductoController",
+    "Method": "Delete",
+    "RelativePath": "api/productos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ServicioController",
+    "Method": "ActualizarServicio",
+    "RelativePath": "api/servicios/{id}/{tipoServicio}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoServicio",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "servicioDto",
+        "Type": "ProyectoAPI.DTOs.ServicioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ServicioController",
+    "Method": "EliminarServicio",
+    "RelativePath": "api/servicios/{id}/{tipoServicio}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoServicio",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ServicioController",
+    "Method": "GetServiciosPorNegocio",
+    "RelativePath": "api/servicios/{negocioId}/{tipoServicio}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "negocioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoServicio",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ServicioController",
+    "Method": "CrearServicio",
+    "RelativePath": "api/servicios/{negocioId}/{tipoServicio}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "negocioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoServicio",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "servicioDto",
+        "Type": "ProyectoAPI.DTOs.ServicioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.UsuarioController",
+    "Method": "LoginDue\u00F1o",
+    "RelativePath": "api/Usuario/LoginDue\u00F1o",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "ProyectoAPI.DTOs.LoginDue\u00F1oDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.UsuarioController",
+    "Method": "LoginTurista",
+    "RelativePath": "api/Usuario/LoginTurista",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "ProyectoAPI.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

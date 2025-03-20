@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus2\\PROYECTOCONSTRUCCION\\ProyectoAPI\\ProyectoAPI.csproj": {}
+    "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus2\\PROYECTOCONSTRUCCION\\ProyectoAPI\\ProyectoAPI.csproj": {
+    "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus2\\PROYECTOCONSTRUCCION\\ProyectoAPI\\ProyectoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj",
         "projectName": "ProyectoAPI",
-        "projectPath": "C:\\Users\\asus2\\PROYECTOCONSTRUCCION\\ProyectoAPI\\ProyectoAPI.csproj",
+        "projectPath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj",
         "packagesPath": "C:\\Users\\asus2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus2\\PROYECTOCONSTRUCCION\\ProyectoAPI\\obj\\",
+        "outputPath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

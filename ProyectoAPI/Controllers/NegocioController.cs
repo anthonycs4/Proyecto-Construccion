@@ -16,28 +16,32 @@ namespace ProyectoAPI.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetNegocios()
-        {
-            var negocios = _negocioService.GetNegocios();
-            return Ok(negocios);
-        }
+        public IActionResult GetNegocios() => Ok(_negocioService.GetNegocios());
+
         [HttpGet("dueno/{usuarioId}")]
-        public IActionResult GetNegociosPorDueno(int usuarioId)
+        public IActionResult GetNegociosPorDueno(int usuarioId) => Ok(_negocioService.GetNegociosPorDueno(usuarioId));
+        [HttpPost("dueno/{usuarioId}")]
+        public IActionResult RegistrarNegocio(int usuarioId, [FromBody] NegocioDTO negocioDto)
         {
-            var negocios = _negocioService.GetNegociosPorDueno(usuarioId);
-            return Ok(negocios);
+            if (negocioDto == null) return BadRequest("El negocio no puede ser nulo.");
+
+            var nuevoNegocio = _negocioService.RegistrarNegocio(usuarioId, negocioDto);
+
+            return nuevoNegocio != null
+                ? CreatedAtAction(nameof(GetNegociosPorDueno), new { usuarioId }, nuevoNegocio)
+                : BadRequest("No se pudo registrar el negocio.");
         }
 
 
-    
-    [HttpPut("{id}")]
-        public IActionResult ActualizarNegocio(int id, [FromBody] NegocioDTO negocioDto)
+        [HttpPut("{idNegocio}/dueno/{idUsuario}")]
+        public IActionResult ActualizarNegocio(int idNegocio, int idUsuario, [FromBody] NegocioDTO negocioDto)
         {
-            var actualizado = _negocioService.ActualizarNegocio(id, negocioDto);
-            if (!actualizado) return NotFound();
-            return NoContent();
+            var actualizado = _negocioService.ActualizarNegocio(idNegocio, idUsuario, negocioDto);
+            return actualizado ? NoContent() : NotFound();
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult EliminarNegocio(int id) =>
+            _negocioService.EliminarNegocio(id) ? NoContent() : NotFound();
     }
 }
-
-

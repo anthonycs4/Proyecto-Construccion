@@ -1,0 +1,26 @@
+﻿@model List<Proyecto_Construccion.Models.Negocio>
+
+<h2>Lista de Negocios</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var negocio in Model)
+        {
+            <tr>
+                <td>@negocio.Nombre</td>
+                <td>@negocio.Direccion</td>
+                <td>@negocio.Telefono</td>
+                <td>
+                    <a href="@Url.Action("ServiciosPorNegocio", "Servicio", new { negocioId = negocio.Id })">Ver Servicios</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

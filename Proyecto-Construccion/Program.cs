@@ -10,6 +10,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
+builder.Services.AddHttpClient("ApiClient", client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5279/api/");
+})
+.ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+{
+    ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true
+});
+
+
 
 // 🔥 Configurar sesiones correctamente
 builder.Services.AddSession(options =>
@@ -36,6 +46,8 @@ app.UseRouting();
 // 🔥 Asegurar que las sesiones están activadas antes de la autorización
 app.UseSession();
 app.UseAuthorization();
+//Api
+
 
 // Definir rutas
 app.MapControllerRoute(

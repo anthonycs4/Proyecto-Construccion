@@ -10,8 +10,9 @@
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Negocio> Negocios { get; set; }
-        public DbSet<Hospedaje> Hospedajes { get; set; }  // <- Asegúrate de que exista
-
+        public DbSet<ServicioHotel> ServiciosHotel { get; set; }
+        public DbSet<ServicioRestaurante> ServiciosRestaurante { get; set; }
+        public DbSet<ServicioTuristico> ServiciosTuristicos { get; set; }
 
     }
 
