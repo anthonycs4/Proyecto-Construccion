@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Proyecto_Construccion.Models;
-using System.Net.Http;
-using System.Text;
+﻿using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Proyecto_Construccion.Models;
 
 public class NegocioController : Controller
 {
@@ -15,58 +14,30 @@ public class NegocioController : Controller
         _httpClient = httpClientFactory.CreateClient("ApiClient");
     }
 
-    // Obtener todos los negocios
     public async Task<IActionResult> Index()
     {
-        var response = await _httpClient.GetAsync("negocios");
-        if (!response.IsSuccessStatusCode) return View(new List<Negocio>());
+        // Obtener el usuario logueado desde la sesión
+        var usuarioJson = HttpContext.Session.GetString("Usuario");
+        if (string.IsNullOrEmpty(usuarioJson))
+        {
+            return RedirectToAction("Usuario","Login");
+        }
 
-        var json = await response.Content.ReadAsStringAsync();
-        var negocios = JsonSerializer.Deserialize<List<Negocio>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        var usuario = JsonConvert.DeserializeObject<Usuario>(usuarioJson);
+        int usuarioId = usuario.Id; // Asegúrate de que 'Id' es la clave correcta
+
+
+        // Consumir la API para obtener negocios del usuario
+        var response = await _httpClient.GetAsync($"negocios/dueno/{usuarioId}");
+        if (!response.IsSuccessStatusCode)
+        {
+            return View(new List<Negocio>()); // Devolver una lista vacía si falla
+        }
+
+        var jsonResponse = await response.Content.ReadAsStringAsync();
+        var negocios = System.Text.Json.JsonSerializer.Deserialize<List<Negocio>>(jsonResponse, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
         return View(negocios);
     }
 
-    // Obtener negocios por usuario
-    public async Task<IActionResult> NegociosPorUsuario(int usuarioId)
-    {
-        var response = await _httpClient.GetAsync($"negocios/dueno/{usuarioId}");
-        if (!response.IsSuccessStatusCode) return View(new List<Negocio>());
-
-        var json = await response.Content.ReadAsStringAsync();
-        var negocios = JsonSerializer.Deserialize<List<Negocio>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-
-        return View("Index", negocios);
-    }
-
-    // Crear un negocio
-    [HttpPost]
-    public async Task<IActionResult> Crear(Negocio negocio, int usuarioId)
-    {
-        var content = new StringContent(JsonSerializer.Serialize(negocio), Encoding.UTF8, "application/json");
-        var response = await _httpClient.PostAsync($"negocios/dueno/{usuarioId}", content);
-
-        if (!response.IsSuccessStatusCode) return BadRequest("No se pudo crear el negocio.");
-        return RedirectToAction("Index");
-    }
-
-    // Editar un negocio
-    [HttpPost]
-    public async Task<IActionResult> Editar(int idNegocio, Negocio negocio, int usuarioId)
-    {
-        var content = new StringContent(JsonSerializer.Serialize(negocio), Encoding.UTF8, "application/json");
-        var response = await _httpClient.PutAsync($"negocios/{idNegocio}/dueno/{usuarioId}", content);
-
-        if (!response.IsSuccessStatusCode) return BadRequest("No se pudo actualizar el negocio.");
-        return RedirectToAction("Index");
-    }
-
-    // Eliminar un negocio
-    [HttpPost]
-    public async Task<IActionResult> Eliminar(int idNegocio)
-    {
-        var response = await _httpClient.DeleteAsync($"negocios/{idNegocio}");
-        if (!response.IsSuccessStatusCode) return BadRequest("No se pudo eliminar el negocio.");
-        return RedirectToAction("Index");
-    }
 }

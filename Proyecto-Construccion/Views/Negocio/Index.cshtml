@@ -1,24 +1,37 @@
 ﻿@model List<Proyecto_Construccion.Models.Negocio>
 
-<h2>Lista de Negocios</h2>
+@{
+    ViewData["Title"] = "Mis Negocios";
+}
+
+<h2>Mis Negocios</h2>
+
 <table class="table">
     <thead>
         <tr>
             <th>Nombre</th>
-            <th>Dirección</th>
-            <th>Teléfono</th>
+            <th>Tipo</th>
             <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var negocio in Model)
         {
+            // Convertir el TipoNegocioId en su nombre correspondiente
+            string tipoNegocio = negocio.TipoNegocioId switch
+            {
+                1 => "Hotel",
+                2 => "Restaurante",
+                3 => "Turismo",
+                _ => "Desconocido"
+            };
+
             <tr>
                 <td>@negocio.Nombre</td>
-                <td>@negocio.Direccion</td>
-                <td>@negocio.Telefono</td>
+                <td>@tipoNegocio</td>
                 <td>
-                    <a href="@Url.Action("ServiciosPorNegocio", "Servicio", new { negocioId = negocio.Id })">Ver Servicios</a>
+                    <a href="@Url.Action("Editar", "Negocio", new { id = negocio.Id })" class="btn btn-warning">Editar</a>
+                    <a href="@Url.Action("Servicios", "Servicio", new { negocioId = negocio.Id, tipoServicio = tipoNegocio })" class="btn btn-info">Ver Servicios</a>
                 </td>
             </tr>
         }

@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Proyecto_Construccion.Models;
-using System.Net.Http;
-using System.Text;
+﻿using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Proyecto_Construccion.Models;
 using System.Collections.Generic;
 
 public class ServicioController : Controller
@@ -15,46 +15,26 @@ public class ServicioController : Controller
         _httpClient = httpClientFactory.CreateClient("ApiClient");
     }
 
-    // Obtener todos los servicios de un negocio
-    public async Task<IActionResult> ServiciosPorNegocio(int negocioId)
+    public async Task<IActionResult> Servicios(int negocioId, string tipoServicio)
     {
-        var response = await _httpClient.GetAsync($"servicios/negocio/{negocioId}");
-        if (!response.IsSuccessStatusCode) return View(new List<Servicio>());
+        // Llamada a la API
+        var response = await _httpClient.GetAsync($"servicios/{negocioId}/{tipoServicio}");
+        if (!response.IsSuccessStatusCode)
+        {
+            return View(new List<object>()); // Retorna una lista vacía en caso de error
+        }
 
-        var json = await response.Content.ReadAsStringAsync();
-        var servicios = JsonSerializer.Deserialize<List<Servicio>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        var jsonResponse = await response.Content.ReadAsStringAsync();
 
-        return View("Index", servicios);
-    }
+        dynamic servicios = tipoServicio switch
+        {
+            "Hotel" => JsonConvert.DeserializeObject<List<Servicio>>(jsonResponse),
+            "Restaurante" => JsonConvert.DeserializeObject<List<Servicio>>(jsonResponse),
+            "Turismo" => JsonConvert.DeserializeObject<List<Servicio>>(jsonResponse),
+            _ => new List<object>()
+        };
 
-    // Crear un servicio
-    [HttpPost]
-    public async Task<IActionResult> Crear(Servicio servicio, int negocioId)
-    {
-        var content = new StringContent(JsonSerializer.Serialize(servicio), Encoding.UTF8, "application/json");
-        var response = await _httpClient.PostAsync($"servicios/negocio/{negocioId}", content);
-
-        if (!response.IsSuccessStatusCode) return BadRequest("No se pudo crear el servicio.");
-        return RedirectToAction("ServiciosPorNegocio", new { negocioId });
-    }
-
-    // Editar un servicio
-    [HttpPost]
-    public async Task<IActionResult> Editar(int servicioId, Servicio servicio, int negocioId)
-    {
-        var content = new StringContent(JsonSerializer.Serialize(servicio), Encoding.UTF8, "application/json");
-        var response = await _httpClient.PutAsync($"servicios/{servicioId}/negocio/{negocioId}", content);
-
-        if (!response.IsSuccessStatusCode) return BadRequest("No se pudo actualizar el servicio.");
-        return RedirectToAction("ServiciosPorNegocio", new { negocioId });
-    }
-
-    // Eliminar un servicio
-    [HttpPost]
-    public async Task<IActionResult> Eliminar(int servicioId, int negocioId)
-    {
-        var response = await _httpClient.DeleteAsync($"servicios/{servicioId}");
-        if (!response.IsSuccessStatusCode) return BadRequest("No se pudo eliminar el servicio.");
-        return RedirectToAction("ServiciosPorNegocio", new { negocioId });
+        ViewBag.TipoServicio = tipoServicio;
+        return View(servicios);
     }
 }

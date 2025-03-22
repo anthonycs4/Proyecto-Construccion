@@ -31,5 +31,23 @@ namespace Proyecto_Construccion.Models
 
         [StringLength(50)]
         public string? Contraseña { get; set; }
+
+
+
+        //revisar
+     
+        public class LoginRequestDTO
+        {
+            public string? Correo { get; set; }
+            public string? Contraseña { get; set; }
+        }
+
+        public class LoginDueñoRequestDTO
+        {
+            public string? Ruc { get; set; }
+            public string? Contraseña { get; set; }
+        }
     }
+
 }
+

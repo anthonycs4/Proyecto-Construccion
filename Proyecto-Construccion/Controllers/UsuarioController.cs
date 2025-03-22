@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Proyecto_Construccion.Models;
+ // Importa los DTOs
 
 namespace Proyecto_Construccion.Controllers
 {
@@ -15,22 +16,24 @@ namespace Proyecto_Construccion.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> LoginTurista(string correo, string contraseña)
+        public async Task<IActionResult> LoginTurista([FromBody] Usuario loginDto)
         {
-            var requestData = new { Correo = correo, Contraseña = contraseña };
-            var content = new StringContent(JsonConvert.SerializeObject(requestData), Encoding.UTF8, "application/json");
+            if (loginDto == null || string.IsNullOrEmpty(loginDto.Correo) || string.IsNullOrEmpty(loginDto.Contraseña))
+                return BadRequest(new { mensaje = "Datos incompletos" });
+
+            var content = new StringContent(JsonConvert.SerializeObject(loginDto), Encoding.UTF8, "application/json");
 
             var response = await _httpClient.PostAsync("http://localhost:5279/api/Usuario/LoginTurista", content);
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
-            {
                 return BadRequest(new { mensaje = "Credenciales incorrectas" });
-            }
 
             var usuario = JsonConvert.DeserializeObject<Usuario>(jsonResponse);
+            if (usuario == null)
+                return BadRequest(new { mensaje = "No se pudo obtener el usuario" });
 
-            // Guardar sesión del usuario
+            // Guardar datos en sesión
             HttpContext.Session.SetString("Usuario", JsonConvert.SerializeObject(usuario));
             HttpContext.Session.SetString("TipoUsuario", usuario.TipoUsuarioId.ToString());
 
@@ -38,22 +41,24 @@ namespace Proyecto_Construccion.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> LoginDueño(string ruc, string contraseña)
+        public async Task<IActionResult> LoginDueño([FromBody] Usuario loginDto)
         {
-            var requestData = new { Ruc = ruc, Contraseña = contraseña };
-            var content = new StringContent(JsonConvert.SerializeObject(requestData), Encoding.UTF8, "application/json");
+            if (loginDto == null || string.IsNullOrEmpty(loginDto.Ruc) || string.IsNullOrEmpty(loginDto.Contraseña))
+                return BadRequest(new { mensaje = "Datos incompletos" });
+
+            var content = new StringContent(JsonConvert.SerializeObject(loginDto), Encoding.UTF8, "application/json");
 
             var response = await _httpClient.PostAsync("http://localhost:5279/api/Usuario/LoginDueño", content);
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
-            {
                 return BadRequest(new { mensaje = "Credenciales incorrectas" });
-            }
 
             var usuario = JsonConvert.DeserializeObject<Usuario>(jsonResponse);
+            if (usuario == null)
+                return BadRequest(new { mensaje = "No se pudo obtener el usuario" });
 
-            // Guardar sesión del usuario
+            // Guardar datos en sesión
             HttpContext.Session.SetString("Usuario", JsonConvert.SerializeObject(usuario));
             HttpContext.Session.SetString("TipoUsuario", usuario.TipoUsuarioId.ToString());
 
@@ -66,6 +71,20 @@ namespace Proyecto_Construccion.Controllers
             HttpContext.Session.Clear();
             return Ok(new { mensaje = "Sesión cerrada" });
         }
+        [HttpGet]
+        public IActionResult ObtenerSesion()
+        {
+            var usuario = HttpContext.Session.GetString("Usuario");
+            var tipoUsuario = HttpContext.Session.GetString("TipoUsuario");
+
+            if (string.IsNullOrEmpty(usuario))
+            {
+                return BadRequest(new { mensaje = "No hay sesión activa" });
+            }
+
+            return Ok(new { Usuario = usuario, TipoUsuario = tipoUsuario });
+        }
+
 
         [HttpGet]
         public IActionResult Login()

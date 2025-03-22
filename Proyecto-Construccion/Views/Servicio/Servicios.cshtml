@@ -1,0 +1,94 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Servicios";
+    string tipoServicio = ViewBag.TipoServicio as string;
+}
+
+<h2>Servicios de @tipoServicio</h2>
+
+@if (tipoServicio == "Hotel")
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Cantidad Personas</th>
+                <th>WiFi</th>
+                <th>Agua Caliente</th>
+                <th>Room Service</th>
+                <th>Cochera</th>
+                <th>Cable</th>
+                <th>Desayuno</th>
+                <th>Precio</th>
+                <th>Fotos</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var servicio in Model)
+            {
+                <tr>
+                    <td>@servicio.CantidadPersonas</td>
+                    <td>@(servicio.WiFi ? "Sí" : "No")</td>
+                    <td>@(servicio.AguaCaliente ? "Sí" : "No")</td>
+                    <td>@(servicio.RoomService ? "Sí" : "No")</td>
+                    <td>@(servicio.Cochera ? "Sí" : "No")</td>
+                    <td>@(servicio.Cable ? "Sí" : "No")</td>
+                    <td>@(servicio.DesayunoIncluido ? "Sí" : "No")</td>
+                    <td>@servicio.Precio.ToString("C")</td>
+                    <td><img src="@servicio.Fotos" width="100" /></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (tipoServicio == "Restaurante")
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre Plato</th>
+                <th>Tipo Plato</th>
+                <th>Precio</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var servicio in Model)
+            {
+                <tr>
+                    <td>@servicio.NombrePlato</td>
+                    <td>@servicio.TipoPlato</td>
+                    <td>@servicio.Precio.ToString("C")</td>
+                    <td>@servicio.Descripcion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (tipoServicio == "Turismo")
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Provincia</th>
+                <th>Nombre Lugar</th>
+                <th>Precio</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var servicio in Model)
+            {
+                <tr>
+                    <td>@servicio.Provincia</td>
+                    <td>@servicio.NombreLugar</td>
+                    <td>@servicio.Precio.ToString("C")</td>
+                    <td>@servicio.Descripcion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay servicios disponibles.</p>
+}

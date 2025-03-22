@@ -60,7 +60,8 @@ namespace ProyectoAPI.Services
                     Id = n.Id,
                     Nombre = n.Nombre,
                     Direccion = n.Direccion,
-                    Telefono = n.Telefono
+                    Telefono = n.Telefono,
+                    TipoNegocioId=n.TipoNegocioId
                 }).ToList();
         }
 

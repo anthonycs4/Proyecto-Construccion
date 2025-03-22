@@ -20,14 +20,15 @@ builder.Services.AddHttpClient("ApiClient", client =>
 });
 
 
-
-// 🔥 Configurar sesiones correctamente
+builder.Services.AddDistributedMemoryCache(); // Usar caché en memoria
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Tiempo de inactividad antes de expirar
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Tiempo de expiración
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
@@ -45,6 +46,7 @@ app.UseRouting();
 
 // 🔥 Asegurar que las sesiones están activadas antes de la autorización
 app.UseSession();
+app.UseAuthentication(); // Si usas autenticación basada en cookies o tokens
 app.UseAuthorization();
 //Api
 

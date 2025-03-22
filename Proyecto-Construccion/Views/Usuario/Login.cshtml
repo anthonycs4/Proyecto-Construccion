@@ -31,48 +31,50 @@
 
 @section Scripts {
     <script>
-               async function loginTurista() {
-            const correo = document.getElementById("UsrCorreo").value;
-            const contraseña = document.getElementById("UsrContraseña").value;
+            async function loginTurista() {
+    const correo = document.getElementById("UsrCorreo").value;
+    const contraseña = document.getElementById("UsrContraseña").value;
 
-            const response = await fetch("http://localhost:5279/api/Usuario/LoginTurista", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ Correo: correo, Contraseña: contraseña })
-            });
+    const response = await fetch("/Usuario/LoginTurista", { // 🔥 Ahora apunta al Controller en MVC
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ correo, contraseña })
+    });
 
-            const data = await response.json();
+    const data = await response.json();
 
-            if (response.ok) {
-                localStorage.setItem("usuario", JSON.stringify(data)); // Guardar usuario en localStorage
-                localStorage.setItem("tipoUsuario", data.tipoUsuarioId); // 🔥 Guardar Tipo de Usuario
-                alert("Login exitoso");
-                window.location.href = "/Producto/Index"; // Redirige a la página principal
-            } else {
-                alert(data.mensaje || "Error en el login");
-            }
-        }
-        async function loginDueño() {
-            const ruc = document.getElementById("UsrRuc").value;
-            const contraseña = document.getElementById("UsrContraseñaDueño").value;
+    if (response.ok) {
+        localStorage.setItem("usuario", JSON.stringify(data)); // Guardar usuario en localStorage
+        localStorage.setItem("tipoUsuario", data.tipoUsuarioId); // 🔥 Guardar Tipo de Usuario
+        alert("Login exitoso");
+        window.location.href = "/Producto/Index"; // Redirige a la página principal
+    } else {
+        alert(data.mensaje || "Error en el login");
+    }
+}
 
-            const response = await fetch("http://localhost:5279/api/Usuario/LoginDueño", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ Ruc: ruc, Contraseña: contraseña })
-            });
+async function loginDueño() {
+    const ruc = document.getElementById("UsrRuc").value;
+    const contraseña = document.getElementById("UsrContraseñaDueño").value;
 
-            const data = await response.json();
+    const response = await fetch("/Usuario/LoginDueño", { // 🔥 Ahora apunta al Controller en MVC
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ruc, contraseña })
+    });
 
-            if (response.ok) {
-                localStorage.setItem("usuario", JSON.stringify(data));
-                localStorage.setItem("tipoUsuario", data.tipoUsuarioId); // 🔥 Guardar Tipo de Usuario
-                alert("Login exitoso");
-                window.location.href = "/Producto/Index";
-            } else {
-                alert(data.mensaje || "Error en el login");
-            }
-        }
+    const data = await response.json();
+
+    if (response.ok) {
+        localStorage.setItem("usuario", JSON.stringify(data));
+        localStorage.setItem("tipoUsuario", data.tipoUsuarioId); // 🔥 Guardar Tipo de Usuario
+        alert("Login exitoso");
+        window.location.href = "/Producto/Index";
+    } else {
+        alert(data.mensaje || "Error en el login");
+    }
+}
+
 
         function toggleForm(formType) {
             document.getElementById("turistaForm").classList.remove("active");
