@@ -1,0 +1,237 @@
+﻿@model List<Proyecto_Construccion.Models.Cotizacion>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Bootstrap JS (bundle incluye Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<h2>Resultados de Cotización</h2>
+
+<!-- Llamada a la API para verificar la sesión antes de mostrar el botón -->
+<!-- Mostrar el texto si el usuario está logueado -->
+<!-- Botón para abrir el modal -->
+<button id="valoracionBtn" class="btn btn-primary" style="display: none;padding:15px 0px;" onclick="abrirModal()">¿Te gustaría valorar esta cotización?</button>
+
+<div class="form-group" style="padding:15px 0px;">
+    <label for="orderSelect">Ordenar por Total (€):</label>
+    <select id="orderSelect" class="form-control">
+        <option value="asc">Mayor a menor</option>
+        <option value="desc">Menor a mayor</option>
+    </select>
+</div>
+
+<!--
+    Esta tabla muestra las cotizaciones generadas, con los detalles de los costos para cada categoría
+    (hotel, restaurante, lugar turístico) y el total.
+-->
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <!-- Encabezados de la tabla -->
+                <th>Hotel</th>
+                <th>Restaurante</th>
+                <th>Lugar</th>
+                <th>Costo Hotel (€)</th>
+                <th>Costo Restaurante (€)</th>
+                <th>Costo Lugar (€)</th>
+                <th>Total (€)</th>
+                <th>Presupuesto Restante (€)</th>
+                <th>Porcentaje del Presupuesto (%)</th>
+                <th>Ajuste por fechas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Itera sobre cada cotización en el modelo -->
+            @foreach (var cotizacion in Model)
+            {
+                <tr>
+                    <!-- Enlace a la página de detalle del hotel, usando su ID -->
+                    <td>
+                        <a href="@Url.Action("Detalle", "Negocio", new { id = cotizacion.HotelId })">
+                            @cotizacion.Hotel
+                        </a>
+                    </td>
+
+                    <!-- Enlace a la página de detalle del restaurante, usando su ID -->
+                    <td>
+                        <a href="@Url.Action("Detalle", "Negocio", new { id = cotizacion.RestauranteId })">
+                            @cotizacion.Restaurante
+                        </a>
+                    </td>
+
+                    <!-- Enlace a la página de detalle del lugar turístico, usando su ID -->
+                    <td>
+                        <a href="@Url.Action("Detalle", "Negocio", new { id = cotizacion.LugarId })">
+                            @cotizacion.Lugar
+                        </a>
+                    </td>
+
+                    <!-- Muestra el costo del hotel en la cotización -->
+                    <td>@cotizacion.CostoHotel</td>
+
+                    <!-- Muestra el costo del restaurante en la cotización -->
+                    <td>@cotizacion.CostoRestaurante</td>
+
+                    <!-- Muestra el costo del lugar turístico en la cotización -->
+                    <td>@cotizacion.CostoLugar</td>
+
+                    <!-- Muestra el costo total de la cotización (suma de los anteriores) -->
+                    <td>@cotizacion.Total</td>
+
+                    <!-- Muestra el presupuesto restante después de los costos -->
+                    <td>@cotizacion.PresupuestoRestante</td>
+
+                    <!-- Muestra el porcentaje del presupuesto que se ha utilizado -->
+                    <td>@cotizacion.PorcentajePresupuesto</td>
+
+                    <!-- Muestra si hubo un ajuste especial en los costos debido a las fechas del viaje -->
+                    <td>@cotizacion.AjusteEspecial</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+<!-- Modal de valoración -->
+<div class="modal" id="valoracionModal" tabindex="-1" aria-labelledby="valoracionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="valoracionModalLabel">Valora la Cotización</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Estrellas de valoración -->
+                <div class="star-rating">
+                    <span class="star" onclick="setRating(1)">★</span>
+                    <span class="star" onclick="setRating(2)">★</span>
+                    <span class="star" onclick="setRating(3)">★</span>
+                    <span class="star" onclick="setRating(4)">★</span>
+                    <span class="star" onclick="setRating(5)">★</span>
+                </div>
+                <br>
+                <!-- Comentario -->
+                <textarea id="comentario" class="form-control" placeholder="Deja tu comentario..."></textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="enviarValoracion()">Enviar Valoración</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        // Modal Boostrap
+        function abrirModal() {
+            var modal = new bootstrap.Modal(document.getElementById('valoracionModal'));
+            modal.show();
+        }
+
+        let rating = 0;
+
+        function setRating(stars) {
+            rating = stars;
+            const starsElements = document.querySelectorAll('.star');
+            starsElements.forEach((star, index) => {
+                star.style.color = index < stars ? 'gold' : 'gray';
+            });
+        }
+
+        async function enviarValoracion() {
+            const comentario = document.getElementById('comentario').value;
+
+            if (rating === 0) {
+                alert('Por favor selecciona una cantidad de estrellas.');
+                return;
+            }
+
+                    const valoracion = {
+            estrellas: rating,
+            comentario: comentario
+        };
+
+
+            try {
+                        const response = await fetch('/Cotizacion/GuardarValoracion', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(valoracion),
+        });
+
+
+                if (response.ok) {
+                    alert('Gracias por tu valoración.');
+                    const modal = bootstrap.Modal.getInstance(document.getElementById('valoracionModal'));
+                    modal.hide();
+                } else {
+                    alert('Hubo un error al guardar tu valoración.');
+                }
+            } catch (error) {
+                console.error('Error al enviar:', error);
+            }
+        }
+
+        // Ya incluida en tu código
+        async function verificarSesion() {
+            const response = await fetch("/Usuario/ObtenerSesion", {
+                method: "GET",
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                const usuarioJson = data.usuario;
+                const tipoUsuario = data.tipoUsuario;
+
+                if (usuarioJson && tipoUsuario) {
+                    document.getElementById("valoracionBtn").style.display = "block";
+                } else {
+                    document.getElementById("valoracionBtn").style.display = "none";
+                }
+            } else {
+                document.getElementById("valoracionBtn").style.display = "none";
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', verificarSesion);
+    </script>
+
+    <script>
+        // Función para ordenar la tabla
+        function sortTable(order) {
+            var rows = document.querySelector("tbody").rows;
+            var sortedRows = Array.from(rows).sort(function (a, b) {
+                // Obtener los valores de la columna "Total (€)"
+                var totalA = parseFloat(a.cells[7].textContent.replace('€', '').trim());
+                var totalB = parseFloat(b.cells[7].textContent.replace('€', '').trim());
+
+                if (order === "asc") {
+                    return totalA - totalB; // Ascendente
+                } else {
+                    return totalB - totalA; // Descendente
+                }
+            });
+
+            // Vaciar el cuerpo de la tabla y volver a agregar las filas ordenadas
+            var tbody = document.querySelector("tbody");
+            tbody.innerHTML = "";
+            tbody.append(...sortedRows);
+        }
+
+        // Evento para detectar cambios en el selector de orden
+        document.getElementById("orderSelect").addEventListener("change", function () {
+            sortTable(this.value);
+        });
+
+        // Ordenar por defecto en orden ascendente al cargar la página
+        window.onload = function() {
+            sortTable('asc');
+        };
+    </script>
+
+}

@@ -13,6 +13,9 @@
         public DbSet<ServicioHotel> ServiciosHotel { get; set; }
         public DbSet<ServicioRestaurante> ServiciosRestaurante { get; set; }
         public DbSet<ServicioTuristico> ServiciosTuristicos { get; set; }
+        public DbSet<ValoracionCotizacion> Tb_ValoracionCotizacion { get; set; }
+        public DbSet<Estadistica> Tb_EstadisticasRecomendacion { get; set; }
+
 
     }
 

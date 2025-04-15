@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ProyectoAPI.Controllers.EstadisticasController",
+    "Method": "GetEstadisticasPorUsuario",
+    "RelativePath": "api/Estadisticas/usuario/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProyectoAPI.Controllers.NegocioController",
     "Method": "GetNegocios",
     "RelativePath": "api/negocios",
@@ -8,6 +24,32 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.NegocioController",
+    "Method": "GetNegocioById",
+    "RelativePath": "api/negocios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProyectoAPI.DTOs.NegocioDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ProyectoAPI.Controllers.NegocioController",
@@ -241,6 +283,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProyectoAPI.Controllers.ServicioController",
+    "Method": "GetServicioPorId",
+    "RelativePath": "api/servicios/detalle/{id}/{tipoServicio}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoServicio",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProyectoAPI.Controllers.UsuarioController",
     "Method": "LoginDue\u00F1o",
     "RelativePath": "api/Usuario/LoginDue\u00F1o",
@@ -270,6 +333,74 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.UsuarioController",
+    "Method": "RegistrarCliente",
+    "RelativePath": "api/Usuario/RegistrarCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProyectoAPI.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.UsuarioController",
+    "Method": "RegistrarNegocio",
+    "RelativePath": "api/Usuario/RegistrarNegocio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProyectoAPI.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ValoracionCotizacionController",
+    "Method": "CrearValoracion",
+    "RelativePath": "api/ValoracionCotizacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProyectoAPI.DTOs.ValoracionCotizacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ValoracionCotizacionController",
+    "Method": "ObtenerValoraciones",
+    "RelativePath": "api/ValoracionCotizacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.ValoracionCotizacionController",
+    "Method": "ObtenerPromedio",
+    "RelativePath": "api/ValoracionCotizacion/promedio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

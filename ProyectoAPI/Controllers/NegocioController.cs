@@ -39,6 +39,19 @@ namespace ProyectoAPI.Controllers
             var actualizado = _negocioService.ActualizarNegocio(idNegocio, idUsuario, negocioDto);
             return actualizado ? NoContent() : NotFound();
         }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<NegocioDTO>> GetNegocioById(int id)
+        {
+            try
+            {
+                var negocio = await _negocioService.ObtenerDetallesNegocioAsync(id);
+                return Ok(negocio);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+        }
 
         [HttpDelete("{id}")]
         public IActionResult EliminarNegocio(int id) =>

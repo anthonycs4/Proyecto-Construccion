@@ -38,6 +38,23 @@ public class NegocioController : Controller
         var negocios = System.Text.Json.JsonSerializer.Deserialize<List<Negocio>>(jsonResponse, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
         return View(negocios);
+    }       
+    public async Task<IActionResult> Detalle(int id)
+    {
+
+        
+        // Consumir la API para obtener detalles del negocio
+        var response = await _httpClient.GetAsync($"negocios/{id}");
+        if (!response.IsSuccessStatusCode)
+        {
+            return View("Error"); // Si la API falla, mostramos una página de error
+        }
+
+        var jsonResponse = await response.Content.ReadAsStringAsync();
+        var negocio = System.Text.Json.JsonSerializer.Deserialize<Negocio>(jsonResponse, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+        return View(negocio);
     }
+
 
 }

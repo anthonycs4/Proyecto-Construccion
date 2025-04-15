@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Registro";
+}
+
+<h2>Registro de Usuario</h2>
+
+<ul class="nav nav-tabs" id="registroTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="cliente-tab" data-bs-toggle="tab" data-bs-target="#cliente" type="button" role="tab">Cliente</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="dueno-tab" data-bs-toggle="tab" data-bs-target="#dueno" type="button" role="tab">Dueño</button>
+    </li>
+</ul>
+
+<div class="tab-content mt-3">
+    <div class="tab-pane fade show active" id="cliente" role="tabpanel">
+        <form id="formCliente">
+            <input type="text" name="DniRut" placeholder="DNI" class="form-control mb-2" required />
+            <input type="text" name="NombresCompleto" placeholder="Nombres Completos" class="form-control mb-2" required />
+            <input type="email" name="Correo" placeholder="Correo" class="form-control mb-2" required />
+            <input type="password" name="Contraseña" placeholder="Contraseña" class="form-control mb-2" required />
+            <button type="submit" class="btn btn-primary">Registrar Cliente</button>
+        </form>
+    </div>
+
+    <div class="tab-pane fade" id="dueno" role="tabpanel">
+        <form id="formDueno">
+            <input type="text" name="DniRut" placeholder="DNI" class="form-control mb-2" required />
+            <input type="text" name="Ruc" placeholder="RUC" class="form-control mb-2" required />
+            <input type="text" name="NombresCompleto" placeholder="Nombres Completos" class="form-control mb-2" required />
+            <input type="email" name="Correo" placeholder="Correo" class="form-control mb-2" required />
+            <input type="password" name="Contraseña" placeholder="Contraseña" class="form-control mb-2" required />
+            <button type="submit" class="btn btn-success">Registrar Dueño</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("formCliente").addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const data = Object.fromEntries(new FormData(this));
+            const response = await fetch("/Usuario/RegistrarCliente", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+            alert(result.mensaje);
+        });
+
+        document.getElementById("formDueno").addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const data = Object.fromEntries(new FormData(this));
+            const response = await fetch("/Usuario/RegistrarDueño", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+            alert(result.mensaje);
+        });
+    </script>
+}

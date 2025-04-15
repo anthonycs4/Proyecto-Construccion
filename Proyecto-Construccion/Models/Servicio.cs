@@ -3,7 +3,10 @@
     public class Servicio
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public int NegocioId { get; set; }
+        public string TipoServicio { get; set; }
+
+        public string? Nombre { get; set; }
         public decimal Precio { get; set; }
 
         // Propiedades específicas para Servicios de Hotel
@@ -22,5 +25,6 @@
 
         // Propiedades específicas para Servicios Turísticos
         public string Provincia { get; set; }
+
     }
 }

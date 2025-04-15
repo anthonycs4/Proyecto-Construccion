@@ -1,0 +1,104 @@
+﻿@using Proyecto_Construccion.Models
+@model List<EstadisticaNegocio>
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Reporte de Recomendaciones";
+}
+
+<h1 class="text-xl font-bold">📊 Análisis y Reportes</h1>
+
+<canvas id="barChart" width="600" height="400" class="mb-8"></canvas>
+
+@foreach (var negocio in Model)
+{
+    <div class="mb-10">
+        <h2 class="mt-6 font-semibold text-lg">@negocio.NombreNegocio</h2>
+        @if (negocio.TotalRecomendaciones == 0 || !negocio.Servicios.Any())
+        {
+            <p class="text-gray-500 italic">Este negocio aún no tiene recomendaciones.</p>
+        }
+        else
+        {
+            <canvas id="pieChart-@negocio.NegocioId" width="400" height="400"></canvas>
+        }
+    </div>
+}
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const datos = @Html.Raw(JsonConvert.SerializeObject(Model));
+            console.log("📦 Datos desde la API:", datos);
+
+            // BAR CHART
+            const barCanvas = document.getElementById('barChart');
+            if (barCanvas) {
+                const barCtx = barCanvas.getContext('2d');
+                new Chart(barCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: datos.map(n => n.NegocioId),
+                        datasets: [{
+                            label: 'Total Recomendaciones',
+                            data: datos.map(n => n.TotalRecomendaciones),
+                            backgroundColor: '#4f46e5'
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { display: false },
+                            title: {
+                                display: true,
+                                text: 'Total de Recomendaciones por Negocio'
+                            }
+                        }
+                    }
+                });
+            }
+
+            // PIE CHARTS POR NEGOCIO
+            datos.forEach(negocio => {
+                const canvasId = `pieChart-${negocio.NegocioId}`;
+                const canvas = document.getElementById(canvasId);
+                console.log("🎨 Canvas encontrado para:", canvasId, canvas);
+
+                if (canvas) {
+                    const ctx = canvas.getContext('2d');
+
+                    // Asegurarse de tener servicios con recomendaciones
+                    const serviciosValidos = (negocio.Servicios || []).filter(s => s.VecesRecomendado > 0);
+                    if (serviciosValidos.length === 0) {
+                        console.log(`⚠️ No hay servicios con recomendaciones para: ${negocio.nombreNegocio}`);
+                        return;
+                    }
+
+                    const labels = serviciosValidos.map(s => `${s.TipoServicio} (ID: ${s.ServicioId})`);
+                    const data = serviciosValidos.map(s => s.VecesRecomendado);
+
+                    new Chart(ctx, {
+                        type: 'pie',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                data: data,
+                                backgroundColor: ['#f87171', '#60a5fa', '#34d399', '#fbbf24', '#a78bfa']
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                title: {
+                                    display: true,
+                                    text: `Distribución en ${negocio.nombreNegocio}`
+                                }
+                            }
+                        }
+                    });
+                } else {
+                    console.warn(`❌ Canvas no encontrado para ID: ${canvasId}`);
+                }
+            });
+        });
+    </script>
+}

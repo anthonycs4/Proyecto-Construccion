@@ -17,6 +17,11 @@ builder.Services.AddScoped<AuthService>(); // 🔹 Se registra el AuthService
 builder.Services.AddScoped<NegocioService>();
 builder.Services.AddScoped<NegocioService>();
 builder.Services.AddScoped<ServicioService>();
+builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<ValoracionService>();
+builder.Services.AddScoped<EstadisticaService>();
+
+
 
 // Configurar CORS
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";

@@ -91,5 +91,40 @@ namespace Proyecto_Construccion.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult Registro()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> RegistrarCliente([FromBody] Usuario nuevoUsuario)
+        {
+            var content = new StringContent(JsonConvert.SerializeObject(nuevoUsuario), Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PostAsync("http://localhost:5279/api/Usuario/RegistrarCliente", content);
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+
+            if (!response.IsSuccessStatusCode)
+                return BadRequest(new { mensaje = "Error al registrar cliente" });
+
+            return Ok(new { mensaje = "Cliente registrado correctamente" });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RegistrarDueño([FromBody] Usuario nuevoUsuario)
+        {
+            var content = new StringContent(JsonConvert.SerializeObject(nuevoUsuario), Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PostAsync("http://localhost:5279/api/Usuario/RegistrarNegocio", content);
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+
+            if (!response.IsSuccessStatusCode)
+                return BadRequest(new { mensaje = "Error al registrar dueño" });
+
+            return Ok(new { mensaje = "Dueño registrado correctamente" });
+        }
+
     }
 }

@@ -1,0 +1,131 @@
+﻿@model Proyecto_Construccion.Models.Servicio
+
+@{
+    ViewData["Title"] = "Editar Servicio";
+    string tipoServicio = ViewBag.TipoServicio as string;
+}
+
+<h2>Editar Servicio - @tipoServicio</h2>
+
+<form id="form-editar-servicio">
+    <input type="hidden" id="Id" value="@Model.Id" />
+    <input type="hidden" id="TipoServicio" value="@tipoServicio" />
+
+    @if (tipoServicio == "Hotel")
+    {
+        <div class="form-group">
+            <label>Cantidad Personas</label>
+            <input type="number" class="form-control" id="CantidadPersonas" value="@Model.CantidadPersonas" />
+        </div>
+        <div class="form-group">
+            <label>WiFi</label>
+            <input type="checkbox" id="WiFi" @(Model.WiFi ? "checked" : "") />
+        </div>
+        <div class="form-group">
+            <label>Agua Caliente</label>
+            <input type="checkbox" id="AguaCaliente" @(Model.AguaCaliente ? "checked" : "") />
+        </div>
+        <div class="form-group">
+            <label>Room Service</label>
+            <input type="checkbox" id="RoomService" @(Model.RoomService ? "checked" : "") />
+        </div>
+        <div class="form-group">
+            <label>Cochera</label>
+            <input type="checkbox" id="Cochera" @(Model.Cochera ? "checked" : "") />
+        </div>
+        <div class="form-group">
+            <label>Cable</label>
+            <input type="checkbox" id="Cable" @(Model.Cable ? "checked" : "") />
+        </div>
+        <div class="form-group">
+            <label>Desayuno Incluido</label>
+            <input type="checkbox" id="DesayunoIncluido" @(Model.DesayunoIncluido ? "checked" : "") />
+        </div>
+    }
+    else if (tipoServicio == "Restaurante")
+    {
+        <div class="form-group">
+            <label>Nombre del Plato</label>
+            <input type="text" class="form-control" id="Nombre" value="@Model.Nombre" />
+        </div>
+        <div class="form-group">
+            <label>Tipo de Plato</label>
+            <input type="text" class="form-control" id="TipoPlato" value="@Model.TipoPlato" />
+        </div>
+        <div class="form-group">
+            <label>Descripción</label>
+            <textarea class="form-control" id="Descripcion">@Model.Descripcion</textarea>
+        </div>
+    }
+    else if (tipoServicio == "Turismo")
+    {
+        <div class="form-group">
+            <label>Provincia</label>
+            <input type="text" class="form-control" id="Provincia" value="@Model.Provincia" />
+        </div>
+        <div class="form-group">
+            <label>Nombre del Lugar</label>
+            <input type="text" class="form-control" id="Nombre" value="@Model.Nombre" />
+        </div>
+        <div class="form-group">
+            <label>Descripción</label>
+            <textarea class="form-control" id="Descripcion">@Model.Descripcion</textarea>
+        </div>
+    }
+
+    <div class="form-group">
+        <label>Precio</label>
+        <input type="number" class="form-control" id="Precio" value="@Model.Precio" />
+    </div>
+
+    <div class="form-group">
+        <label>Fotos (URL)</label>
+        <input type="text" class="form-control" id="Fotos" value="@Model.Fotos" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $("#form-editar-servicio").submit(function (e) {
+            e.preventDefault();
+
+            const tipoServicio = $("#TipoServicio").val();
+            const servicio = {
+                id: parseInt($("#Id").val()),
+                tipoServicio: tipoServicio,
+                nombre: $("#Nombre").val() || "",
+                precio: parseFloat($("#Precio").val()) || 0,
+                cantidadPersonas: parseInt($("#CantidadPersonas").val()) || 0,
+                wiFi: $("#WiFi").is(":checked"),
+                aguaCaliente: $("#AguaCaliente").is(":checked"),
+                roomService: $("#RoomService").is(":checked"),
+                cochera: $("#Cochera").is(":checked"),
+                cable: $("#Cable").is(":checked"),
+                desayunoIncluido: $("#DesayunoIncluido").is(":checked"),
+                fotos: $("#Fotos").val() || "",
+                tipoPlato: $("#TipoPlato").val() || "",
+                descripcion: $("#Descripcion").val() || "",
+                provincia: $("#Provincia").val() || ""
+            };
+
+            $.ajax({
+                url: "/Servicio/Editar",
+                method: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(servicio),
+                success: function () {
+                    alert("Servicio editado correctamente");
+                   window.location.href = document.referrer;
+
+                },
+                error: function (xhr) {
+                    console.error(xhr.responseText);
+                    alert("Error al editar el servicio. Revisa la consola.");
+                }
+            });
+        });
+    </script>
+}

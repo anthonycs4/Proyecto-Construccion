@@ -24,6 +24,7 @@ namespace ProyectoAPI.Services
                         {
                             Id = s.Id,
                             Nombre = "Habitación para " + s.CantidadPersonas + " personas",
+                            CantidadPersonas=s.CantidadPersonas,
                             Precio = s.Precio,
                             WiFi=s.WiFi,
                             AguaCaliente=s.AguaCaliente,
@@ -194,6 +195,56 @@ namespace ProyectoAPI.Services
 
             _context.SaveChanges();
             return true;
+        }
+    
+    public ServicioDTO? GetServicioPorId(int id, string tipoServicio)
+        {
+            switch (tipoServicio.ToLower())
+            {
+                case "hotel":
+                    var hotel = _context.ServiciosHotel.FirstOrDefault(s => s.Id == id);
+                    if (hotel == null) return null;
+                    return new ServicioDTO
+                    {
+                        Id = hotel.Id,
+                        CantidadPersonas = hotel.CantidadPersonas,
+                        WiFi = hotel.WiFi,
+                        AguaCaliente = hotel.AguaCaliente,
+                        RoomService = hotel.RoomService,
+                        Cochera = hotel.Cochera,
+                        Cable = hotel.Cable,
+                        DesayunoIncluido = hotel.DesayunoIncluido,
+                        Precio = hotel.Precio,
+                        Fotos = hotel.Fotos
+                    };
+
+                case "restaurante":
+                    var restaurante = _context.ServiciosRestaurante.FirstOrDefault(s => s.Id == id);
+                    if (restaurante == null) return null;
+                    return new ServicioDTO
+                    {
+                        Id = restaurante.Id,
+                        Nombre = restaurante.NombrePlato,
+                        TipoPlato = restaurante.TipoPlato,
+                        Descripcion = restaurante.Descripcion,
+                        Precio = restaurante.Precio
+                    };
+
+                case "turismo":
+                    var turismo = _context.ServiciosTuristicos.FirstOrDefault(s => s.Id == id);
+                    if (turismo == null) return null;
+                    return new ServicioDTO
+                    {
+                        Id = turismo.Id,
+                        Provincia = turismo.Provincia,
+                        Nombre = turismo.NombreLugar,
+                        Descripcion = turismo.Descripcion,
+                        Precio = turismo.Precio
+                    };
+
+                default:
+                    return null;
+            }
         }
     }
 }

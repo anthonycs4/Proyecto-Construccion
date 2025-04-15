@@ -1,0 +1,149 @@
+﻿@model Proyecto_Construccion.Models.Servicio
+
+@{
+    ViewData["Title"] = "Crear Servicio";
+    string tipoServicio = ViewBag.TipoServicio as string;
+    int negocioId = ViewBag.NegocioId ?? 0;
+}
+
+<h2>Crear Servicio - @tipoServicio</h2>
+
+<form asp-action="Crear" method="post">
+    <!-- Modificar para asegurar que se pasen correctamente -->
+    <input type="hidden" asp-for="NegocioId" value="@negocioId" />
+    <input type="hidden" asp-for="TipoServicio" value="@tipoServicio" />
+
+    @if (tipoServicio == "Hotel")
+    {
+        <div class="form-group">
+            <label for="CantidadPersonas">Cantidad Personas</label>
+            <input type="number" class="form-control" asp-for="CantidadPersonas" required />
+        </div>
+        <div class="form-group">
+            <label>WiFi</label>
+            <input type="checkbox" asp-for="WiFi" />
+        </div>
+        <div class="form-group">
+            <label>Agua Caliente</label>
+            <input type="checkbox" asp-for="AguaCaliente" />
+        </div>
+        <div class="form-group">
+            <label>Room Service</label>
+            <input type="checkbox" asp-for="RoomService" />
+        </div>
+        <div class="form-group">
+            <label>Cochera</label>
+            <input type="checkbox" asp-for="Cochera" />
+        </div>
+        <div class="form-group">
+            <label>Cable</label>
+            <input type="checkbox" asp-for="Cable" />
+        </div>
+        <div class="form-group">
+            <label>Desayuno Incluido</label>
+            <input type="checkbox" asp-for="DesayunoIncluido" />
+        </div>
+    }
+    else if (tipoServicio == "Restaurante")
+    {
+        <div class="form-group">
+            <label for="Nombre">Nombre del Plato</label>
+            <input type="text" class="form-control" asp-for="Nombre" required />
+        </div>
+        <div class="form-group">
+            <label for="TipoPlato">Tipo de Plato</label>
+            <input type="text" class="form-control" asp-for="TipoPlato" required />
+        </div>
+        <div class="form-group">
+            <label for="Descripcion">Descripción</label>
+            <textarea class="form-control" asp-for="Descripcion"></textarea>
+        </div>
+    }
+    else if (tipoServicio == "Turismo")
+    {
+        <div class="form-group">
+            <label for="Provincia">Provincia</label>
+            <input type="text" class="form-control" asp-for="Provincia" required />
+        </div>
+        <div class="form-group">
+            <label for="Nombre">Nombre del Lugar</label>
+            <input type="text" class="form-control" asp-for="Nombre" required />
+        </div>
+        <div class="form-group">
+            <label for="Descripcion">Descripción</label>
+            <textarea class="form-control" asp-for="Descripcion"></textarea>
+        </div>
+    }
+
+    <div class="form-group">
+        <label for="Precio">Precio</label>
+        <input type="number" step="0.01" class="form-control" asp-for="Precio" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Fotos">Fotos (URL)</label>
+        <input type="text" class="form-control" asp-for="Fotos" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("form").submit(function (event) {
+            event.preventDefault(); // Evita la recarga
+
+            let tipoServicio = "@tipoServicio";
+            let negocioId = @negocioId;
+
+            let servicio = {
+                id: 0, // El ID siempre debe empezar en 0 si estás creando
+                negocioId: negocioId,
+                tipoServicio: tipoServicio,
+                nombre: "",
+                precio: parseFloat($("#Precio").val()) || 0,
+                cantidadPersonas: 0,
+                wiFi: $("#WiFi").is(":checked") || false,
+                aguaCaliente: $("#AguaCaliente").is(":checked") || false,
+                roomService: $("#RoomService").is(":checked") || false,
+                cochera: $("#Cochera").is(":checked") || false,
+                cable: $("#Cable").is(":checked") || false,
+                desayunoIncluido: $("#DesayunoIncluido").is(":checked") || false,
+                fotos: $("#Fotos").val() || "",
+                tipoPlato: "",
+                descripcion: "",
+                provincia: ""
+            };
+
+            // Asignar valores según tipo de servicio
+            if (tipoServicio === "Hotel") {
+                servicio.cantidadPersonas = parseInt($("#CantidadPersonas").val()) || 0;
+            } else if (tipoServicio === "Restaurante") {
+                servicio.nombre = $("#Nombre").val() || "";
+                servicio.tipoPlato = $("#TipoPlato").val() || "";
+                servicio.descripcion = $("#Descripcion").val() || "";
+            } else if (tipoServicio === "Turismo") {
+                servicio.nombre = $("#Nombre").val() || "";
+                servicio.descripcion = $("#Descripcion").val() || "";
+                servicio.provincia = $("#Provincia").val() || "";
+            }
+
+            // Enviar al backend
+            $.ajax({
+                url: "/Servicio/Crear",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(servicio),
+                success: function (response) {
+                    alert("Servicio creado con éxito.");
+                    window.location.href = "/Negocio/Index";
+                },
+                error: function (xhr) {
+                    console.error(xhr.responseText);
+                    alert("Error al crear el servicio. Revisa la consola.");
+                }
+            });
+        });
+    });
+</script>

@@ -7,6 +7,7 @@ namespace ProyectoAPI.Models
     public class ServicioHotel
     {
         public int Id { get; set; }
+        public string Nombre { get; set; }
         public int NegocioId { get; set; }
         public int CantidadPersonas { get; set; }
         public bool WiFi { get; set; }

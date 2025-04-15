@@ -50,5 +50,17 @@ namespace ProyectoAPI.Controllers
             if (!eliminado) return NotFound("Servicio no encontrado.");
             return NoContent();
         }
+        // ServicioController.cs
+
+        // 🔹 Obtener un servicio por su ID y tipo
+        [HttpGet("detalle/{id}/{tipoServicio}")]
+        public IActionResult GetServicioPorId(int id, string tipoServicio)
+        {
+            var servicio = _servicioService.GetServicioPorId(id, tipoServicio);
+            if (servicio == null) return NotFound("Servicio no encontrado.");
+            return Ok(servicio);
+        }
+
+
     }
 }

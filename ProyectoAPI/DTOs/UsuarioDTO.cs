@@ -7,5 +7,7 @@
         public string Correo { get; set; } = string.Empty;
         public string? Ruc { get; set; } // Opcional, solo para dueños
         public int TipoUsuarioId { get; set; }
+        public string DniRut { get; set; }
+
     }
 }

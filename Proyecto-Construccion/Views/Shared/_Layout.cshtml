@@ -215,7 +215,7 @@
         <!-- Botones visibles solo si el usuario NO ha iniciado sesión -->
         @if (true) // Se controlará con JavaScript
         {
-            <button id="registerBtn" class="login-btn" onclick="window.location.href='/Registro/Index'">
+            <button id="registerBtn" class="login-btn" onclick="window.location.href='/Usuario/Registro'">
                 Registrarse
             </button>
             <button id="loginBtn" class="login-btn" onclick="window.location.href='/Usuario/Login'">
@@ -232,8 +232,8 @@
                     Panel de Control
                 </button>
                 <div class="dropdown-menu">
-                    <a href="/Administrador/Negocios">📌 Gestión de Negocios</a>
-                    <a href="/Administrador/Reportes">📊 Análisis y Reportes</a>
+                    <a href="/Negocio/Index">📌 Gestión de Negocios</a>
+                    <a href="/Estadisticas/Reporte">📊 Análisis y Reportes</a>
                     <a href="/Administrador/Configuracion">⚙️ Configuración</a>
                 </div>
             </div>
@@ -405,23 +405,57 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Modal para el formulario de cotización personalizada -->
+    <!--
+        <summary>
+            RF03: Generar cotizaciones personalizadas basadas en parámetros del usuario.
+            Este modal recoge los datos necesarios para generar una cotización de viaje.
+        </summary>
+    -->
+    <!-- <modal id="customQuoteModal"> -->
     <div class="modal fade" id="customQuoteModal" tabindex="-1" aria-labelledby="customQuoteModalLabel" aria-hidden="true">
+
+        <!-- <section>Promedio de valoraciones visual</section> -->
+        <div class="d-flex justify-content-end me-3 mt-2">
+            <span id="valoracionPromedioText" class="badge bg-warning text-dark">
+                Promedio de valoración: <span id="valoracionPromedioValor">Cargando...</span>
+            </span>
+        </div>
+
+        <!-- <dialog size="large"> -->
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
+
+                <!-- <header>Encabezado del modal</header> -->
                 <div class="modal-header color1 text-white text-center">
                     <h5 class="modal-title mx-auto" id="customQuoteModalLabel">Cotización Personalizada</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+
+                <!-- <body>Formulario de parámetros del usuario</body> -->
                 <div class="modal-body">
+
+                    <!--
+                        <form>
+                            Acción: /Cotizacion/CustomQuote
+                            Método: POST
+                            Descripción: Recoge parámetros como días, presupuesto, motivo, fechas y personas.
+                        </form>
+                    -->
                     <form class="text-center" action="/Cotizacion/CustomQuote" method="post">
+
+                        <!-- <input name="dias_viaje">Cantidad de días del viaje</input> -->
                         <div class="mb-3">
                             <label for="dias" class="form-label">Días de Viaje</label>
                             <input type="number" class="form-control mx-auto" id="dias" name="dias_viaje" placeholder="Ingrese la cantidad de días" style="max-width: 300px;" required>
                         </div>
+
+                        <!-- <input name="presupuesto_usuario">Presupuesto total del usuario</input> -->
                         <div class="mb-3">
                             <label for="presupuesto" class="form-label">Presupuesto</label>
                             <input type="number" class="form-control mx-auto" id="presupuesto" name="presupuesto_usuario" placeholder="Ingrese su presupuesto" style="max-width: 300px;" required>
                         </div>
+
+                        <!-- <select name="motivo_viaje">Motivo principal del viaje</select> -->
                         <div class="mb-3">
                             <label for="motivo" class="form-label">Motivo de Viaje</label>
                             <select class="form-control mx-auto" id="motivo" name="motivo_viaje" style="max-width: 300px;" required>
@@ -431,25 +465,39 @@
                                 <option value="otro">Otro</option>
                             </select>
                         </div>
-                        @*<div class="mb-3">
-                            <label for="ubicacion" class="form-label">Ubicación</label>
-                            <select class="form-control mx-auto" id="ubicacion" name="ubicacion_usuario" style="max-width: 300px;" required>
-                                <option value="Madrid">Madrid</option>
-                                <option value="Barcelona">Barcelona</option>
+
+                        <!--
+                            <select name="ubicacion_usuario">
+                                Campo de ubicación (actualmente no visible).
                             </select>
-                        </div>*@
+                        -->
+                        @*<div class="mb-3">
+                        <label for="ubicacion" class="form-label">Ubicación</label>
+                        <select class="form-control mx-auto" id="ubicacion" name="ubicacion_usuario" style="max-width: 300px;" required>
+                            <option value="Madrid">Madrid</option>
+                            <option value="Barcelona">Barcelona</option>
+                        </select>
+                    </div>*@
+
+                        <!-- <input name="cantidad_personas">Número total de personas para la cotización</input> -->
                         <div class="mb-3">
                             <label for="personas" class="form-label">Cantidad de Personas</label>
                             <input type="number" class="form-control mx-auto" id="personas" name="cantidad_personas" placeholder="Ingrese la cantidad de personas" style="max-width: 300px;" required>
                         </div>
+
+                        <!-- <input name="fecha_inicio">Fecha de inicio del viaje</input> -->
                         <div class="mb-3">
                             <label for="fecha_inicio" class="form-label">Fecha Inicio</label>
                             <input type="date" class="form-control mx-auto" id="fecha_inicio" name="fecha_inicio" style="max-width: 300px;" required>
                         </div>
+
+                        <!-- <input name="fecha_fin">Fecha de finalización del viaje</input> -->
                         <div class="mb-3">
                             <label for="fecha_fin" class="form-label">Fecha Fin</label>
                             <input type="date" class="form-control mx-auto" id="fecha_fin" name="fecha_fin" style="max-width: 300px;" required>
                         </div>
+
+                        <!-- <button>Envía los parámetros y genera la cotización</button> -->
                         <div class="mt-4">
                             <button type="submit" class="btn custom-btn w-50">Obtener Cotización</button>
                         </div>
@@ -464,7 +512,55 @@
     </div>
     @RenderSection("Scripts", required: false) <!-- Esta línea debe estar presente -->
 
-    
+    <script>
+        const cotizacionId = 1; // ← Cambia esto dinámicamente si es necesario
+
+        async function cargarPromedioValoracion() {
+            try {
+                const response = await fetch(`/Cotizacion/ObtenerPromedioValoracion?cotizacionId=${cotizacionId}`);
+                const data = await response.json();
+
+                console.log("Datos recibidos:", data); // Para depurar la estructura
+
+                // Verificamos si es una cadena JSON que necesita ser parseada
+                if (typeof data === 'string') {
+                    try {
+                        const parsedData = JSON.parse(data);
+                        // Redondeamos a 1 decimal
+                        const promedio = parseFloat(parsedData.promedio).toFixed(1);
+                        document.getElementById("valoracionPromedioValor").innerText = promedio;
+                    } catch {
+                        // Si es una cadena pero no JSON válido, mostrar tal cual
+                        document.getElementById("valoracionPromedioValor").innerText = data;
+                    }
+                }
+                // Si es un objeto directo
+                else if (data && typeof data === 'object') {
+                    if (data.promedio !== undefined) {
+                        // Redondeamos a 1 decimal
+                        const promedio = parseFloat(data.promedio).toFixed(1);
+                        document.getElementById("valoracionPromedioValor").innerText = promedio;
+                    } else {
+                        // Si el objeto no tiene la propiedad promedio, mostramos todo el contenido
+                        document.getElementById("valoracionPromedioValor").innerText = JSON.stringify(data);
+                    }
+                }
+                // Si es un valor directo
+                else {
+                    // Redondeamos a 1 decimal
+                    const promedio = parseFloat(data).toFixed(1);
+                    document.getElementById("valoracionPromedioValor").innerText = promedio;
+                }
+            } catch (error) {
+                console.error("Error al obtener promedio:", error);
+                document.getElementById("valoracionPromedioValor").innerText = "No disponible";
+            }
+        }
+
+        // Ejecutar cuando se muestre el modal
+        document.getElementById('customQuoteModal').addEventListener('shown.bs.modal', cargarPromedioValoracion);
+    </script>
+
     <footer class="text-center mt-4">
         <p>© 2024 Turismo Platform</p>
     </footer>

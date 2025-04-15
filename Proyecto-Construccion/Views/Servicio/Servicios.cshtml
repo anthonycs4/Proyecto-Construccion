@@ -1,88 +1,78 @@
-﻿@model dynamic
+﻿@model IEnumerable<Proyecto_Construccion.Models.Servicio>
 @{
     ViewData["Title"] = "Servicios";
     string tipoServicio = ViewBag.TipoServicio as string;
+    int negocioId = ViewBag.NegocioId;
 }
 
 <h2>Servicios de @tipoServicio</h2>
 
-@if (tipoServicio == "Hotel")
+<a asp-action="Crear" asp-route-negocioId="@negocioId" asp-route-tipoServicio="@tipoServicio" class="btn btn-primary">Crear Servicio</a>
+
+@if (Model.Any())
 {
     <table class="table">
         <thead>
             <tr>
-                <th>Cantidad Personas</th>
-                <th>WiFi</th>
-                <th>Agua Caliente</th>
-                <th>Room Service</th>
-                <th>Cochera</th>
-                <th>Cable</th>
-                <th>Desayuno</th>
+                @if (tipoServicio == "Hotel")
+                {
+                    <th>Cantidad Personas</th>
+                    <th>WiFi</th>
+                    <th>Agua Caliente</th>
+                    <th>Room Service</th>
+                    <th>Cochera</th>
+                    <th>Cable</th>
+                    <th>Desayuno</th>
+                }
+                else if (tipoServicio == "Restaurante")
+                {
+                    <th>Nombre Plato</th>
+                    <th>Tipo Plato</th>
+                    <th>Descripción</th>
+                }
+                else if (tipoServicio == "Turismo")
+                {
+                    <th>Provincia</th>
+                    <th>Nombre Lugar</th>
+                    <th>Descripción</th>
+                }
                 <th>Precio</th>
                 <th>Fotos</th>
+                <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var servicio in Model)
             {
                 <tr>
-                    <td>@servicio.CantidadPersonas</td>
-                    <td>@(servicio.WiFi ? "Sí" : "No")</td>
-                    <td>@(servicio.AguaCaliente ? "Sí" : "No")</td>
-                    <td>@(servicio.RoomService ? "Sí" : "No")</td>
-                    <td>@(servicio.Cochera ? "Sí" : "No")</td>
-                    <td>@(servicio.Cable ? "Sí" : "No")</td>
-                    <td>@(servicio.DesayunoIncluido ? "Sí" : "No")</td>
+                    @if (tipoServicio == "Hotel")
+                    {
+                        <td>@servicio.CantidadPersonas</td>
+                        <td>@(servicio.WiFi ? "Sí" : "No")</td>
+                        <td>@(servicio.AguaCaliente ? "Sí" : "No")</td>
+                        <td>@(servicio.RoomService ? "Sí" : "No")</td>
+                        <td>@(servicio.Cochera ? "Sí" : "No")</td>
+                        <td>@(servicio.Cable ? "Sí" : "No")</td>
+                        <td>@(servicio.DesayunoIncluido ? "Sí" : "No")</td>
+                    }
+                    else if (tipoServicio == "Restaurante")
+                    {
+                        <td>@servicio.Nombre</td>
+                        <td>@servicio.TipoPlato</td>
+                        <td>@servicio.Descripcion</td>
+                    }
+                    else if (tipoServicio == "Turismo")
+                    {
+                        <td>@servicio.Provincia</td>
+                        <td>@servicio.Nombre</td>
+                        <td>@servicio.Descripcion</td>
+                    }
                     <td>@servicio.Precio.ToString("C")</td>
                     <td><img src="@servicio.Fotos" width="100" /></td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-else if (tipoServicio == "Restaurante")
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Nombre Plato</th>
-                <th>Tipo Plato</th>
-                <th>Precio</th>
-                <th>Descripción</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var servicio in Model)
-            {
-                <tr>
-                    <td>@servicio.NombrePlato</td>
-                    <td>@servicio.TipoPlato</td>
-                    <td>@servicio.Precio.ToString("C")</td>
-                    <td>@servicio.Descripcion</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-else if (tipoServicio == "Turismo")
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Provincia</th>
-                <th>Nombre Lugar</th>
-                <th>Precio</th>
-                <th>Descripción</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var servicio in Model)
-            {
-                <tr>
-                    <td>@servicio.Provincia</td>
-                    <td>@servicio.NombreLugar</td>
-                    <td>@servicio.Precio.ToString("C")</td>
-                    <td>@servicio.Descripcion</td>
+                    <td>
+                        <a asp-action="Editar" asp-route-id="@servicio.Id" asp-route-tipoServicio="@tipoServicio" class="btn btn-warning">Editar</a>
+                        <a asp-action="Eliminar" asp-route-id="@servicio.Id" asp-route-tipoServicio="@tipoServicio" class="btn btn-danger" onclick="return confirm('¿Seguro que deseas eliminar este servicio?');">Eliminar</a>
+                    </td>
                 </tr>
             }
         </tbody>

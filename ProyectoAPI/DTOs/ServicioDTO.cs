@@ -17,10 +17,10 @@
         public string Fotos { get; set; }
 
         // Propiedades específicas para Servicios de Restaurante
-        public string TipoPlato { get; set; }
-        public string Descripcion { get; set; }
+        public string? TipoPlato { get; set; }
+        public string? Descripcion { get; set; }
 
         // Propiedades específicas para Servicios Turísticos
-        public string Provincia { get; set; }
+        public string? Provincia { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using ProyectoAPI.DTOs;
+﻿using Microsoft.EntityFrameworkCore;
+using ProyectoAPI.DTOs;
 using ProyectoAPI.Models;
 
 namespace ProyectoAPI.Services
@@ -21,6 +22,30 @@ namespace ProyectoAPI.Services
                 Direccion = n.Direccion,
                 Telefono = n.Telefono
             }).ToList();
+        }
+        public async Task<NegocioDTO> ObtenerDetallesNegocioAsync(int id)
+        {
+            var negocio = await _context.Negocios
+                .Where(n => n.Id == id)
+                .Select(n => new NegocioDTO
+                {
+                    Id = n.Id,
+                    UsuarioId = n.UsuarioId,
+                    Nombre = n.Nombre,
+                    TipoNegocioId = n.TipoNegocioId,
+                    ProvinciaId = n.ProvinciaId,
+                    Direccion = n.Direccion,
+                    Telefono = n.Telefono,
+                    Descripcion = n.Descripcion
+                })
+                .FirstOrDefaultAsync();
+
+            if (negocio == null)
+            {
+                throw new Exception("Negocio no encontrado");
+            }
+
+            return negocio;
         }
         public NegocioDTO? RegistrarNegocio(int usuarioId,NegocioDTO negocioDto)
         {
