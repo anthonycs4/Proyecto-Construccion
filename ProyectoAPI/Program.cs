@@ -1,56 +1,55 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Proyecto_Backend.Services;
 using ProyectoAPI.Models;
-using ProyectoAPI.Services; // Asegúrate de importar el namespace correcto
+using ProyectoAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar conexión a SQL Server
+// 🔥 Puerto explícito para Docker/Azure
+builder.WebHost.UseUrls("http://*:80");
+
+// Conexión a SQL Server
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Agregar servicios para controladores
+// Controladores
 builder.Services.AddControllers();
 
-// Registrar servicios
-builder.Services.AddScoped<AuthService>(); // 🔹 Se registra el AuthService
-builder.Services.AddScoped<NegocioService>();
+// Servicios
+builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<NegocioService>();
 builder.Services.AddScoped<ServicioService>();
 builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<ValoracionService>();
 builder.Services.AddScoped<CotizacionService>();
-
 builder.Services.AddScoped<EstadisticaService>();
 
-
-
-// Configurar CORS
+// CORS
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(MyAllowSpecificOrigins, policy =>
     {
-        policy.WithOrigins("https://localhost:44312", "http://localhost:5279")
-              .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials();
+        policy.WithOrigins(
+            "https://localhost:44312",
+            "http://localhost:5279",
+            "https://app-front-valverde-cano.azurewebsites.net"
+        )
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials();
     });
 });
 
-// Configurar Swagger
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configurar el middleware de Swagger
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Swagger habilitado también en Azure
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseCors(MyAllowSpecificOrigins);
 app.UseAuthorization();

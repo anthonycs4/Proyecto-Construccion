@@ -1,0 +1,8 @@
+C:\Users\Jean_\Proyecto-Construccion\Proyecto-Construccion\publish\Proyecto-Construccion.exe
+C:\Users\Jean_\Proyecto-Construccion\Proyecto-Construccion\publish\appsettings.Development.json
+C:\Users\Jean_\Proyecto-Construccion\Proyecto-Construccion\publish\appsettings.json
+C:\Users\Jean_\Proyecto-Construccion\Proyecto-Construccion\publish\Proyecto-Construccion.dll
+C:\Users\Jean_\Proyecto-Construccion\Proyecto-Construccion\publish\Proyecto-Construccion.deps.json
+C:\Users\Jean_\Proyecto-Construccion\Proyecto-Construccion\publish\Proyecto-Construccion.runtimeconfig.json
+C:\Users\Jean_\Proyecto-Construccion\Proyecto-Construccion\publish\Proyecto-Construccion.pdb
+C:\Users\Jean_\Proyecto-Construccion\Proyecto-Construccion\publish\Newtonsoft.Json.dll

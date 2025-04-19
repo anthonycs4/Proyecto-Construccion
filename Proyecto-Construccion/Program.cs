@@ -6,6 +6,9 @@ using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 🔥 Puerto 80 obligatorio para contenedores
+builder.WebHost.UseUrls("http://*:80");
+
 // Agregar servicios al contenedor
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
@@ -18,7 +21,6 @@ builder.Services.AddHttpClient("ApiClient", client =>
 {
     ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true
 });
-
 
 builder.Services.AddDistributedMemoryCache(); // Usar caché en memoria
 builder.Services.AddSession(options =>
@@ -44,12 +46,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// 🔥 Asegurar que las sesiones están activadas antes de la autorización
+// 🔥 Activar sesiones y autenticación
 app.UseSession();
-app.UseAuthentication(); // Si usas autenticación basada en cookies o tokens
+app.UseAuthentication(); 
 app.UseAuthorization();
-//Api
-
 
 // Definir rutas
 app.MapControllerRoute(

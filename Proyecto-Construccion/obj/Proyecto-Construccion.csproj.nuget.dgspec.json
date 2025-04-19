@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj": {}
+    "C:\\Users\\Jean_\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj": {
+    "C:\\Users\\Jean_\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj",
+        "projectUniqueName": "C:\\Users\\Jean_\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj",
         "projectName": "Proyecto-Construccion",
-        "projectPath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj",
-        "packagesPath": "C:\\Users\\asus2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\obj\\",
+        "projectPath": "C:\\Users\\Jean_\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj",
+        "packagesPath": "C:\\Users\\Jean_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jean_\\Proyecto-Construccion\\Proyecto-Construccion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\asus2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jean_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -67,6 +67,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

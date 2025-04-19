@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "SSWl69JX2oI=",
+  "dgSpecHash": "3T5WK/psjR4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj",
+  "projectFilePath": "C:\\Users\\Jean_\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\asus2\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Jean_\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Jean_\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\Jean_\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\Jean_\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\Jean_\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.15\\microsoft.netcore.app.host.win-x64.8.0.15.nupkg.sha512"
   ],
   "logs": []
 }
