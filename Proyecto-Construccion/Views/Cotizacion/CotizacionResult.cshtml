@@ -29,6 +29,8 @@
         <thead>
             <tr>
                 <!-- Encabezados de la tabla -->
+            <th>Nro</th>
+
                 <th>Hotel</th>
                 <th>Restaurante</th>
                 <th>Lugar</th>
@@ -39,6 +41,8 @@
                 <th>Presupuesto Restante (€)</th>
                 <th>Porcentaje del Presupuesto (%)</th>
                 <th>Ajuste por fechas</th>
+            <th>Acciones</th>
+
             </tr>
         </thead>
         <tbody>
@@ -47,6 +51,9 @@
             {
                 <tr>
                     <!-- Enlace a la página de detalle del hotel, usando su ID -->
+                    <td>
+                        @cotizacion.CotizacionId
+                    </td>
                     <td>
                         <a href="@Url.Action("Detalle", "Negocio", new { id = cotizacion.HotelId })">
                             @cotizacion.Hotel
@@ -87,6 +94,25 @@
 
                     <!-- Muestra si hubo un ajuste especial en los costos debido a las fechas del viaje -->
                     <td>@cotizacion.AjusteEspecial</td>
+                <td>
+                    <button type="button" class="btn btn-primary btn-sm" onclick="guardarCotizacion(@cotizacion.Id)">Guardar</button>
+                    <input type="hidden" id="hotel_@cotizacion.Id" value="@cotizacion.HotelId">
+                    <input type="hidden" id="hotelName_@cotizacion.Id" value="@cotizacion.Hotel">
+                    <input type="hidden" id="restauranteName_@cotizacion.Id" value="@cotizacion.Restaurante">
+                    <input type="hidden" id="lugarName_@cotizacion.Id" value="@cotizacion.Lugar">
+
+                    <input type="hidden" id="restaurante_@cotizacion.Id" value="@cotizacion.RestauranteId">
+                    <input type="hidden" id="lugar_@cotizacion.Id" value="@cotizacion.LugarId">
+                    <input type="hidden" id="costoHotel_@cotizacion.Id" value="@cotizacion.CostoHotel">
+                    <input type="hidden" id="costoRestaurante_@cotizacion.Id" value="@cotizacion.CostoRestaurante">
+                    <input type="hidden" id="costoLugar_@cotizacion.Id" value="@cotizacion.CostoLugar">
+                    <input type="hidden" id="total_@cotizacion.Id" value="@cotizacion.Total">
+                    <input type="hidden" id="presupuestoRestante_@cotizacion.Id" value="@cotizacion.PresupuestoRestante">
+                    <input type="hidden" id="porcentajePresupuesto_@cotizacion.Id" value="@cotizacion.PorcentajePresupuesto">
+                    <input type="hidden" id="ajusteEspecial_@cotizacion.Id" value="@cotizacion.AjusteEspecial">
+
+                </td>
+
                 </tr>
             }
         </tbody>
@@ -120,9 +146,110 @@
         </div>
     </div>
 </div>
+
 @section Scripts {
+    <!-- Asegúrate de tener SweetAlert2 en tu layout o página -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script>
         // Modal Boostrap
+             async function guardarCotizacion(cotizacionId) {
+            // Función para obtener el valor del input o mostrar un error si no existe el elemento
+            const getValue = (id) => {
+                const element = document.getElementById(id);
+                if (!element) {
+                    console.error(`Elemento con id ${id} no encontrado`);
+                    return null; // Retorna null si el elemento no se encuentra
+                }
+                return element.value;
+            };
+
+            function getCookieValue(name) {
+                const value = `; ${document.cookie}`;
+                const parts = value.split(`; ${name}=`);
+                if (parts.length === 2) return parts.pop().split(';').shift();
+            }
+
+            // Leer la cookie "UsuarioId"
+            const usuarioCookie = getCookieValue("UsuarioId");
+            let usuarioId = null;
+
+            if (usuarioCookie) {
+                try {
+                    usuarioId = JSON.parse(decodeURIComponent(usuarioCookie)); // Obtiene el ID del usuario desde la cookie
+                } catch (e) {
+                    console.error("Error al parsear cookie UsuarioId:", e);
+                }
+            }
+
+            // Si no se obtiene el usuarioId, mostrar un error
+            if (!usuarioId) {
+                console.error('No se encontró el UsuarioId en la cookie');
+                alert('No se encontró información del usuario. Por favor, inicie sesión.');
+                return; // No continuar si no se tiene el ID del usuario
+            }
+
+            // Usar la función getValue para obtener los valores de los elementos
+            const cotizacion = {
+                HotelId: parseInt(getValue(`hotel_${cotizacionId}`), 10),  // ID del hotel como entero
+                Hotel: getValue(`hotelName_${cotizacionId}`),  // Nombre del hotel
+                CostoHotel: parseFloat(getValue(`costoHotel_${cotizacionId}`)),  // Costo del hotel como float
+                RestauranteId: parseInt(getValue(`restaurante_${cotizacionId}`), 10),  // ID del restaurante como entero
+                Restaurante: getValue(`restauranteName_${cotizacionId}`),  // Nombre del restaurante
+                CostoRestaurante: parseFloat(getValue(`costoRestaurante_${cotizacionId}`)),  // Costo del restaurante como float
+                LugarId: parseInt(getValue(`lugar_${cotizacionId}`), 10),  // ID del lugar como entero
+                Lugar: getValue(`lugarName_${cotizacionId}`),  // Nombre del lugar
+                CostoLugar: parseFloat(getValue(`costoLugar_${cotizacionId}`)),  // Costo del lugar como float
+                Total: parseFloat(getValue(`total_${cotizacionId}`)),  // Total como float
+                PresupuestoRestante: parseFloat(getValue(`presupuestoRestante_${cotizacionId}`)),  // Presupuesto restante como float
+                PorcentajePresupuesto: parseFloat(getValue(`porcentajePresupuesto_${cotizacionId}`)),  // Porcentaje como float
+                AjusteEspecial: document.getElementById(`ajusteEspecial_${cotizacionId}`).checked,  // Asegúrate de que es booleano
+                FechaGuardado: new Date().toISOString(), // Fecha actual en formato ISO
+                UsuarioId: usuarioId // <-- Aquí se usa el ID del usuario desde la cookie
+            };
+
+            console.log("Cotización a enviar:", cotizacion);
+
+            // Verificar que todos los valores necesarios están presentes
+            
+
+            try {
+                // Reemplaza la URL de la API con la URL real de tu endpoint para guardar la cotización
+                const response = await fetch('http://localhost:5279/api/Cotizacion/guardar', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(cotizacion)
+                });
+
+                const result = await response.json();  // Obtener el JSON de la respuesta
+                       console.log(result);
+
+        if (result?.mensaje) {
+            Swal.fire({
+                icon: 'success',
+                title: '¡Cotización guardada en historial exitosamente!',
+                text: result.mensaje,
+                confirmButtonText: 'OK'
+            });
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                        text: 'No se pudo guardar en el historial. Intente nuevamente más tarde.'
+            });
+        }
+
+
+         
+
+            } catch (error) {
+                console.error('Error al guardar la cotización:', error);
+                alert('Error del servidor, por favor intente nuevamente.');
+            }
+        }
+
         function abrirModal() {
             var modal = new bootstrap.Modal(document.getElementById('valoracionModal'));
             modal.show();

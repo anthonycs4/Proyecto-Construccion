@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "ProyectoAPI.Controllers.CotizacionController",
+    "Method": "GuardarCotizacion",
+    "RelativePath": "api/Cotizacion/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cotizacion",
+        "Type": "ProyectoAPI.Models.Cotizacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.CotizacionController",
+    "Method": "ObtenerCotizaciones",
+    "RelativePath": "api/Cotizacion/usuario/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProyectoAPI.Controllers.EstadisticasController",
     "Method": "GetEstadisticasPorUsuario",
     "RelativePath": "api/Estadisticas/usuario/{usuarioId}",

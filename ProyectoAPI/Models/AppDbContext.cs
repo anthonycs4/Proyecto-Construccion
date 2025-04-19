@@ -1,6 +1,7 @@
 ﻿namespace ProyectoAPI.Models
 {
     using Microsoft.EntityFrameworkCore;
+    using ProyectoAPI.DTOs;
     using ProyectoAPI.Models;
 
     public class AppDbContext : DbContext
@@ -15,6 +16,8 @@
         public DbSet<ServicioTuristico> ServiciosTuristicos { get; set; }
         public DbSet<ValoracionCotizacion> Tb_ValoracionCotizacion { get; set; }
         public DbSet<Estadistica> Tb_EstadisticasRecomendacion { get; set; }
+        public DbSet<Cotizacion> Tb_CotizacionGuardada { get; set; }
+
 
 
     }

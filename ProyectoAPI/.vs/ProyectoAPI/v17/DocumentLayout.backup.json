@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\EstadisticaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\EstadisticaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\services\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:services\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\models\\serviciohotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:models\\serviciohotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\dtos\\serviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:dtos\\serviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\models\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:models\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\controllers\\cotizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:controllers\\cotizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\services\\cotizacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:services\\cotizacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\dtos\\cotizaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:dtos\\cotizaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\controllers\\estadisticacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:controllers\\estadisticacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\models\\servicioturistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\services\\negocioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:services\\negocioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\services\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:services\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\dtos\\serviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:dtos\\serviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,20 +147,20 @@
       "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:models\\valoracioncotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\EstadisticaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\EstadisticaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\services\\estadisticaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:services\\estadisticaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\EstadisticaNegocioDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\EstadisticaNegocioDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\dtos\\estadisticanegociodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:dtos\\estadisticanegociodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\EstadisticaServicioDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\EstadisticaServicioDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\dtos\\estadisticaserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:dtos\\estadisticaserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\Estadistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Estadistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyectoapi\\models\\estadistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85D50C5-87A4-2EAD-5D01-553F776466E8}|ProyectoAPI.csproj|solutionrelative:models\\estadistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,35 +170,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T04:06:49.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServicioHotel.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\ServicioHotel.cs",
-              "RelativeDocumentMoniker": "Models\\ServicioHotel.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\ServicioHotel.cs",
-              "RelativeToolTip": "Models\\ServicioHotel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T21:16:40.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ServicioRestaurante.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\ServicioRestaurante.cs",
               "RelativeDocumentMoniker": "Models\\ServicioRestaurante.cs",
@@ -194,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "ServicioTuristico.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\ServicioTuristico.cs",
               "RelativeDocumentMoniker": "Models\\ServicioTuristico.cs",
@@ -206,19 +198,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T04:18:15.197Z"
+              "WhenOpened": "2025-03-18T04:18:15.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "NegocioController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\NegocioController.cs",
               "RelativeDocumentMoniker": "Controllers\\NegocioController.cs",
@@ -231,6 +224,122 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServicioService.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\ServicioService.cs",
+              "RelativeDocumentMoniker": "Services\\ServicioService.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\ServicioService.cs",
+              "RelativeToolTip": "Services\\ServicioService.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAwwMwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:18:47.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicioHotel.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\ServicioHotel.cs",
+              "RelativeDocumentMoniker": "Models\\ServicioHotel.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\ServicioHotel.cs",
+              "RelativeToolTip": "Models\\ServicioHotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T21:16:40.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServicioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\ServicioDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ServicioDTO.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\ServicioDTO.cs",
+              "RelativeToolTip": "DTOs\\ServicioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T15:10:25.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T04:11:24.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cotizacion.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\Cotizacion.cs",
+              "RelativeDocumentMoniker": "Models\\Cotizacion.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\Cotizacion.cs",
+              "RelativeToolTip": "Models\\Cotizacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:44:15.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CotizacionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\CotizacionDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CotizacionDTO.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\CotizacionDTO.cs",
+              "RelativeToolTip": "DTOs\\CotizacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:39:43.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CotizacionService.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\CotizacionService.cs",
+              "RelativeDocumentMoniker": "Services\\CotizacionService.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\CotizacionService.cs",
+              "RelativeToolTip": "Services\\CotizacionService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:40:17.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CotizacionController.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\CotizacionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CotizacionController.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\CotizacionController.cs",
+              "RelativeToolTip": "Controllers\\CotizacionController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T03:50:42.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T04:06:49.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EstadisticaController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\EstadisticaController.cs",
               "RelativeDocumentMoniker": "Controllers\\EstadisticaController.cs",
@@ -238,12 +347,11 @@
               "RelativeToolTip": "Controllers\\EstadisticaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T00:01:34.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T00:01:34.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "EstadisticaService.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\EstadisticaService.cs",
               "RelativeDocumentMoniker": "Services\\EstadisticaService.cs",
@@ -255,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "EstadisticaNegocioDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\EstadisticaNegocioDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\EstadisticaNegocioDTO.cs",
@@ -267,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "EstadisticaServicioDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\EstadisticaServicioDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\EstadisticaServicioDTO.cs",
@@ -279,19 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T04:11:24.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "NegocioService.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\NegocioService.cs",
               "RelativeDocumentMoniker": "Services\\NegocioService.cs",
@@ -303,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "Estadistica.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\Estadistica.cs",
               "RelativeDocumentMoniker": "Models\\Estadistica.cs",
@@ -315,31 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServicioService.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\ServicioService.cs",
-              "RelativeDocumentMoniker": "Services\\ServicioService.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\ServicioService.cs",
-              "RelativeToolTip": "Services\\ServicioService.cs",
-              "ViewState": "AgIAANIAAAAAAAAAAAAAAOkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T21:18:47.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServicioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\ServicioDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\ServicioDTO.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\ServicioDTO.cs",
-              "RelativeToolTip": "DTOs\\ServicioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:10:25.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ServicioController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\ServicioController.cs",
               "RelativeDocumentMoniker": "Controllers\\ServicioController.cs",
@@ -351,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
@@ -363,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
@@ -375,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Servicio.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\Servicio.cs",
               "RelativeDocumentMoniker": "Models\\Servicio.cs",
@@ -387,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginDTO.cs",
@@ -399,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "ValoracionCotizacionDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\ValoracionCotizacionDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\ValoracionCotizacionDTO.cs",
@@ -411,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "ValoracionCotizacionController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\ValoracionCotizacionController.cs",
               "RelativeDocumentMoniker": "Controllers\\ValoracionCotizacionController.cs",
@@ -423,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "ValoracionService.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\ValoracionService.cs",
               "RelativeDocumentMoniker": "Services\\ValoracionService.cs",
@@ -435,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "ValoracionCotizacion.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\ValoracionCotizacion.cs",
               "RelativeDocumentMoniker": "Models\\ValoracionCotizacion.cs",
@@ -447,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "HospedajeDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\HospedajeDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\HospedajeDTO.cs",
@@ -459,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "NegocioDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\NegocioDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\NegocioDTO.cs",
@@ -471,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Negocio.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\Negocio.cs",
               "RelativeDocumentMoniker": "Models\\Negocio.cs",
@@ -483,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "IProductoService.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\IProductoService.cs",
               "RelativeDocumentMoniker": "Services\\IProductoService.cs",
@@ -495,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
@@ -507,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UsuarioDTO.cs",
@@ -519,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "ProductoDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\ProductoDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\ProductoDTO.cs",
@@ -531,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Models\\Producto.cs",
@@ -543,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
@@ -555,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "ProductoService.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\Services\\ProductoService.cs",
               "RelativeDocumentMoniker": "Services\\ProductoService.cs",
@@ -567,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -579,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "LoginDue\u00F1oDTO.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\DTOs\\LoginDue\u00F1oDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginDue\u00F1oDTO.cs",

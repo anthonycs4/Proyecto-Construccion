@@ -1,0 +1,58 @@
+﻿@model List<Proyecto_Construccion.Models.Cotizacion>
+
+@{
+    ViewData["Title"] = "Historial de Cotizaciones";
+}
+
+
+<h1>Historial de Cotizaciones</h1>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Hotel</th>
+                <th>Costo Hotel</th>
+                <th>Restaurante</th>
+                <th>Costo Restaurante</th>
+                <th>Lugar</th>
+                <th>Costo Lugar</th>
+                <th>Total</th>
+                <th>Presupuesto Restante</th>
+                <th>Porcentaje de Presupuesto</th>
+                <th>Ajuste Especial</th>
+                <th>Fecha de Guardado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cotizacion in Model)
+            {
+                <tr>
+                    <td>@cotizacion.Hotel</td>
+                    <td>€@cotizacion.CostoHotel.ToString("0.00")</td>
+                    <td>@cotizacion.Restaurante</td>
+                    <td>€@cotizacion.CostoRestaurante.ToString("0.00")</td>
+                    <td>@cotizacion.Lugar</td>
+                    <td>€@cotizacion.CostoLugar.ToString("0.00")</td>
+                    <td><strong>€@cotizacion.Total.ToString("0.00")</strong></td>
+                    <td>€@cotizacion.PresupuestoRestante.ToString("0.00")</td>
+                    <td>@cotizacion.PorcentajePresupuesto %</td>
+                    <td>@(cotizacion.AjusteEspecial ? "Sí" : "No")</td>
+                    <td>@cotizacion.FechaGuardado.ToString("dd/MM/yyyy HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay cotizaciones disponibles.</p>
+}

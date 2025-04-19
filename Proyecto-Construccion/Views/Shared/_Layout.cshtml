@@ -301,6 +301,11 @@
                     </a>
                 </li>
                 <li>
+                    <a  class="dropdown-item"  href="@Url.Action("HistorialCotizaciones", "Cotizacion")">
+                        Historial de Cotizaciones
+                    </a>
+                </li>
+                <li>
                     <a id="adminFeedback" class="dropdown-item" style="display: none;" href="@Url.Action("HistorialFeedBackNegocio", "Perfil")">
                         Historial de Feedback de Negocios
                     </a>
@@ -340,6 +345,9 @@
                     // Si el usuario es normal, mostrar su historial de feedback
                     if (isUser) {
                         document.getElementById("userFeedback").style.display = "block";
+                        document.getElementById("CotizacionHistorial").style.display = "block";
+
+                        
                     }
                 }
             });

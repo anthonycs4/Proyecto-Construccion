@@ -36,6 +36,25 @@ namespace Proyecto_Construccion.Controllers
             // Guardar datos en sesión
             HttpContext.Session.SetString("Usuario", JsonConvert.SerializeObject(usuario));
             HttpContext.Session.SetString("TipoUsuario", usuario.TipoUsuarioId.ToString());
+            // Al momento de iniciar sesión y obtener el objeto usuario:
+            HttpContext.Session.SetString("UsuarioId", usuario.Id.ToString());
+            HttpContext.Session.SetString("UsuarioNombre", usuario.NombresCompleto);
+            HttpContext.Session.SetString("UsuarioCorreo", usuario.Correo);
+            HttpContext.Session.SetString("UsuarioTipo", usuario.TipoUsuarioId.ToString());
+
+            var options = new CookieOptions
+            {
+                Secure = true, // Solo se enviará por HTTPS
+                SameSite = SameSiteMode.Strict, // Para prevenir CSRF
+                Expires = DateTimeOffset.UtcNow.AddDays(7) // Duración de la cookie
+            };
+
+            // Supón que tienes un objeto `usuario` con las propiedades necesarias
+            Response.Cookies.Append("UsuarioId", usuario.Id.ToString(), options);
+            Response.Cookies.Append("UsuarioNombre", usuario.NombresCompleto, options);
+            Response.Cookies.Append("UsuarioCorreo", usuario.Correo, options);
+            Response.Cookies.Append("UsuarioTipo", usuario.TipoUsuarioId.ToString(), options);
+
 
             return Ok(usuario);
         }
@@ -61,6 +80,19 @@ namespace Proyecto_Construccion.Controllers
             // Guardar datos en sesión
             HttpContext.Session.SetString("Usuario", JsonConvert.SerializeObject(usuario));
             HttpContext.Session.SetString("TipoUsuario", usuario.TipoUsuarioId.ToString());
+            var options = new CookieOptions
+            {
+                Secure = true, // Solo se enviará por HTTPS
+                SameSite = SameSiteMode.Strict, // Para prevenir CSRF
+                Expires = DateTimeOffset.UtcNow.AddDays(7) // Duración de la cookie
+            };
+
+            // Supón que tienes un objeto `usuario` con las propiedades necesarias
+            Response.Cookies.Append("UsuarioId", usuario.Id.ToString(), options);
+            Response.Cookies.Append("UsuarioNombre", usuario.NombresCompleto, options);
+            Response.Cookies.Append("UsuarioCorreo", usuario.Correo, options);
+            Response.Cookies.Append("UsuarioTipo", usuario.TipoUsuarioId.ToString(), options);
+
 
             return Ok(usuario);
         }

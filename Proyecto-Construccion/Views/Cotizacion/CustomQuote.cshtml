@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Error al generar la cotización";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">Lo sentimos 😥</h4>
+        <p>
+            Ha ocurrido un error al intentar generar tu cotización.
+        </p>
+
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <hr />
+            <strong>Detalles del error:</strong>
+            <p>@ViewBag.ErrorMessage</p>
+        }
+
+        <hr />
+        <a class="btn btn-primary" href="@Url.Action("CotizacionResult", "Cotizacion")">Volver e intentarlo nuevamente</a>
+    </div>
+</div>

@@ -5,6 +5,60 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Cotizacion/guardar": {
+      "post": {
+        "tags": [
+          "Cotizacion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Cotizacion"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Cotizacion"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Cotizacion"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cotizacion/usuario/{usuarioId}": {
+      "get": {
+        "tags": [
+          "Cotizacion"
+        ],
+        "parameters": [
+          {
+            "name": "usuarioId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Estadisticas/usuario/{usuarioId}": {
       "get": {
         "tags": [
@@ -669,6 +723,75 @@
   },
   "components": {
     "schemas": {
+      "Cotizacion": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usuarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hotelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hotel": {
+            "type": "string",
+            "nullable": true
+          },
+          "costoHotel": {
+            "type": "number",
+            "format": "double"
+          },
+          "restauranteId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "restaurante": {
+            "type": "string",
+            "nullable": true
+          },
+          "costoRestaurante": {
+            "type": "number",
+            "format": "double"
+          },
+          "lugarId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lugar": {
+            "type": "string",
+            "nullable": true
+          },
+          "costoLugar": {
+            "type": "number",
+            "format": "double"
+          },
+          "total": {
+            "type": "number",
+            "format": "double"
+          },
+          "presupuestoRestante": {
+            "type": "number",
+            "format": "double"
+          },
+          "porcentajePresupuesto": {
+            "type": "number",
+            "format": "double"
+          },
+          "ajusteEspecial": {
+            "type": "boolean"
+          },
+          "fechaGuardado": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginDTO": {
         "type": "object",
         "properties": {
