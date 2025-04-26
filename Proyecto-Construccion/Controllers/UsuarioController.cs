@@ -23,7 +23,7 @@ namespace Proyecto_Construccion.Controllers
 
             var content = new StringContent(JsonConvert.SerializeObject(loginDto), Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("http://localhost:5279/api/Usuario/LoginTurista", content);
+            var response = await _httpClient.PostAsync("https://app-back-valverde-cano.azurewebsites.net/api/Usuario/LoginTurista", content);
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
@@ -67,7 +67,7 @@ namespace Proyecto_Construccion.Controllers
 
             var content = new StringContent(JsonConvert.SerializeObject(loginDto), Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("http://localhost:5279/api/Usuario/LoginDueño", content);
+            var response = await _httpClient.PostAsync("https://app-back-valverde-cano.azurewebsites.net/api/Usuario/LoginDueño", content);
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
@@ -135,7 +135,7 @@ namespace Proyecto_Construccion.Controllers
         {
             var content = new StringContent(JsonConvert.SerializeObject(nuevoUsuario), Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("http://localhost:5279/api/Usuario/RegistrarCliente", content);
+            var response = await _httpClient.PostAsync("https://app-back-valverde-cano.azurewebsites.net/api/Usuario/RegistrarCliente", content);
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)
@@ -149,7 +149,7 @@ namespace Proyecto_Construccion.Controllers
         {
             var content = new StringContent(JsonConvert.SerializeObject(nuevoUsuario), Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("http://localhost:5279/api/Usuario/RegistrarNegocio", content);
+            var response = await _httpClient.PostAsync("https://app-back-valverde-cano.azurewebsites.net/api/Usuario/RegistrarNegocio", content);
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
             if (!response.IsSuccessStatusCode)

@@ -198,7 +198,7 @@
                 Restaurante: getValue(`restauranteName_${cotizacionId}`),  // Nombre del restaurante
                 CostoRestaurante: parseFloat(getValue(`costoRestaurante_${cotizacionId}`)),  // Costo del restaurante como float
                 LugarId: parseInt(getValue(`lugar_${cotizacionId}`), 10),  // ID del lugar como entero
-                Lugar: getValue(`lugarName_${cotizacionId}`),  // Nombre del lugar
+                Lugara: getValue(`lugarName_${cotizacionId}`),  // Nombre del lugar
                 CostoLugar: parseFloat(getValue(`costoLugar_${cotizacionId}`)),  // Costo del lugar como float
                 Total: parseFloat(getValue(`total_${cotizacionId}`)),  // Total como float
                 PresupuestoRestante: parseFloat(getValue(`presupuestoRestante_${cotizacionId}`)),  // Presupuesto restante como float
@@ -215,7 +215,7 @@
 
             try {
                 // Reemplaza la URL de la API con la URL real de tu endpoint para guardar la cotización
-                const response = await fetch('http://localhost:5279/api/Cotizacion/guardar', {
+                const response = await fetch('https://app-back-valverde-cano.azurewebsites.net/api/Cotizacion/guardar', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
