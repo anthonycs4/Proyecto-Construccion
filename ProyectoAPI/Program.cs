@@ -6,7 +6,6 @@ using ProyectoAPI.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // 🔥 Puerto explícito para Docker/Azure
-builder.WebHost.UseUrls("http://*:80");
 
 // Conexión a SQL Server
 builder.Services.AddDbContext<AppDbContext>(options =>

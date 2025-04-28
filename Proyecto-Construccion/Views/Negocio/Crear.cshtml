@@ -1,0 +1,40 @@
+﻿@model Proyecto_Construccion.Models.Negocio
+
+@{
+    ViewData["Title"] = "Crear Negocio";
+}
+
+<h2>Crear Negocio</h2>
+
+<form asp-action="Crear" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" class="form-control" name="Nombre" required />
+    </div>
+    <div class="form-group">
+        <label>Tipo de Negocio</label>
+        <select class="form-control" name="TipoNegocioId" required>
+            <option value="1">Hotel</option>
+            <option value="2">Restaurante</option>
+            <option value="3">Turismo</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Dirección</label>
+        <input type="text" class="form-control" name="Direccion" required />
+    </div>
+    <div class="form-group">
+        <label>Teléfono</label>
+        <input type="text" class="form-control" name="Telefono" required />
+    </div>
+    <div class="form-group">
+        <label>Descripción</label>
+        <textarea class="form-control" name="Descripcion" required></textarea>
+    </div>
+    <div class="form-group">
+        <label>Imágenes</label>
+        <input type="file" class="form-control" name="Imagenes" multiple accept="image/*" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar Negocio</button>
+</form>

@@ -15,7 +15,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
 builder.Services.AddHttpClient("ApiClient", client =>
 {
-    client.BaseAddress = new Uri("https://app-back-valverde-cano.azurewebsites.net/api/");
+    client.BaseAddress = new Uri("http://localhost:5279/api/");
 })
 .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
 {
@@ -54,6 +54,6 @@ app.UseAuthorization();
 // Definir rutas
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Producto}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

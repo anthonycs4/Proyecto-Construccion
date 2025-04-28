@@ -8,6 +8,7 @@ namespace ProyectoAPI.Models
     public class Negocio
     {
         [Key]
+
         public int Id { get; set; }
         public int UsuarioId { get; set; }
 
@@ -28,6 +29,9 @@ namespace ProyectoAPI.Models
         public List<ServicioHotel> ServiciosHotel { get; set; }
         public List<ServicioRestaurante> ServiciosRestaurante { get; set; }
         public List<ServicioTuristico> ServiciosTuristico { get; set; }
+        public List<ImagenNegocio> Imagenes { get; set; }
+
+
     }
 
 }

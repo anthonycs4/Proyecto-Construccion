@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UU/jSMlEWIMXrmH68bnYc+G2UKwVIcsp/yxQMK6coew=",
+  "Hash": "tYZIBwf2sKHkLIlWAh2DORTNuv/KHoYlvPJyvA1Kj5k=",
   "Source": "Proyecto-Construccion",
   "BasePath": "_content/Proyecto-Construccion",
   "Mode": "Default",
@@ -99,6 +99,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\6f973ee6-3047-4dd9-bd15-abd64aae9564.png",
+      "SourceId": "Proyecto-Construccion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\",
+      "BasePath": "_content/Proyecto-Construccion",
+      "RelativePath": "imagenes/negocios/6f973ee6-3047-4dd9-bd15-abd64aae9564#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u1y4v73jsr",
+      "Integrity": "no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\negocios\\6f973ee6-3047-4dd9-bd15-abd64aae9564.png"
+    },
+    {
+      "Identity": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\895d4441-3ef9-4f8e-9d04-e73dcf902e04.png",
+      "SourceId": "Proyecto-Construccion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\",
+      "BasePath": "_content/Proyecto-Construccion",
+      "RelativePath": "imagenes/negocios/895d4441-3ef9-4f8e-9d04-e73dcf902e04#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u1y4v73jsr",
+      "Integrity": "no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\negocios\\895d4441-3ef9-4f8e-9d04-e73dcf902e04.png"
+    },
+    {
+      "Identity": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg",
+      "SourceId": "Proyecto-Construccion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\",
+      "BasePath": "_content/Proyecto-Construccion",
+      "RelativePath": "imagenes/negocios/8bd2b3c1-168e-498b-a6cb-8dbe2fddca37#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o796rwiewr",
+      "Integrity": "JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\negocios\\8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg",
+      "SourceId": "Proyecto-Construccion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\",
+      "BasePath": "_content/Proyecto-Construccion",
+      "RelativePath": "imagenes/negocios/d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o796rwiewr",
+      "Integrity": "JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\negocios\\d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d8a012e1-8664-4824-b754-a712c1524da7.jpg",
+      "SourceId": "Proyecto-Construccion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\",
+      "BasePath": "_content/Proyecto-Construccion",
+      "RelativePath": "imagenes/negocios/d8a012e1-8664-4824-b754-a712c1524da7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fuwchw3spz",
+      "Integrity": "uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\negocios\\d8a012e1-8664-4824-b754-a712c1524da7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f1310deb-b145-48ec-9672-9e0fde9b1059.png",
+      "SourceId": "Proyecto-Construccion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\",
+      "BasePath": "_content/Proyecto-Construccion",
+      "RelativePath": "imagenes/negocios/f1310deb-b145-48ec-9672-9e0fde9b1059#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v7um4g2xd1",
+      "Integrity": "e2ZW2fa5BcogrhrEu154P7ghpdrD0wx6onUvKV12vIs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\negocios\\f1310deb-b145-48ec-9672-9e0fde9b1059.png"
+    },
+    {
+      "Identity": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f78e7493-1934-4594-987e-bcec690e7a26.jpg",
+      "SourceId": "Proyecto-Construccion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\",
+      "BasePath": "_content/Proyecto-Construccion",
+      "RelativePath": "imagenes/negocios/f78e7493-1934-4594-987e-bcec690e7a26#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fuwchw3spz",
+      "Integrity": "uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\negocios\\f78e7493-1934-4594-987e-bcec690e7a26.jpg"
     },
     {
       "Identity": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\js\\site.js",
@@ -1481,6 +1628,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/6f973ee6-3047-4dd9-bd15-abd64aae9564.png",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\6f973ee6-3047-4dd9-bd15-abd64aae9564.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 01:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/6f973ee6-3047-4dd9-bd15-abd64aae9564.u1y4v73jsr.png",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\6f973ee6-3047-4dd9-bd15-abd64aae9564.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 01:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u1y4v73jsr"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/negocios/6f973ee6-3047-4dd9-bd15-abd64aae9564.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/895d4441-3ef9-4f8e-9d04-e73dcf902e04.png",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\895d4441-3ef9-4f8e-9d04-e73dcf902e04.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 23:24:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/895d4441-3ef9-4f8e-9d04-e73dcf902e04.u1y4v73jsr.png",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\895d4441-3ef9-4f8e-9d04-e73dcf902e04.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 23:24:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u1y4v73jsr"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/negocios/895d4441-3ef9-4f8e-9d04-e73dcf902e04.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-no9TGKQx7SXeC+eZP7RxYMzZcarXKMaK9cHs0RdvJTo="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 01:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.o796rwiewr.jpeg",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 01:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o796rwiewr"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/negocios/8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 23:24:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.o796rwiewr.jpeg",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 23:24:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o796rwiewr"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/negocios/d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JI9vqVIsI4B35y8k1bKDkDayYlbtyzemzEEwge7TSfs="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/d8a012e1-8664-4824-b754-a712c1524da7.fuwchw3spz.jpg",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d8a012e1-8664-4824-b754-a712c1524da7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 01:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fuwchw3spz"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/negocios/d8a012e1-8664-4824-b754-a712c1524da7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/d8a012e1-8664-4824-b754-a712c1524da7.jpg",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d8a012e1-8664-4824-b754-a712c1524da7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 01:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/f1310deb-b145-48ec-9672-9e0fde9b1059.png",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f1310deb-b145-48ec-9672-9e0fde9b1059.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1675216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2ZW2fa5BcogrhrEu154P7ghpdrD0wx6onUvKV12vIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 01:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2ZW2fa5BcogrhrEu154P7ghpdrD0wx6onUvKV12vIs="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/f1310deb-b145-48ec-9672-9e0fde9b1059.v7um4g2xd1.png",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f1310deb-b145-48ec-9672-9e0fde9b1059.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1675216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2ZW2fa5BcogrhrEu154P7ghpdrD0wx6onUvKV12vIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 01:53:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v7um4g2xd1"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/negocios/f1310deb-b145-48ec-9672-9e0fde9b1059.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2ZW2fa5BcogrhrEu154P7ghpdrD0wx6onUvKV12vIs="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/f78e7493-1934-4594-987e-bcec690e7a26.fuwchw3spz.jpg",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f78e7493-1934-4594-987e-bcec690e7a26.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 23:24:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fuwchw3spz"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/negocios/f78e7493-1934-4594-987e-bcec690e7a26.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/negocios/f78e7493-1934-4594-987e-bcec690e7a26.jpg",
+      "AssetFile": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f78e7493-1934-4594-987e-bcec690e7a26.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 23:24:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uW09Td3xe0jBbGhM0O5FcoZmp0hYNapcB/tsUmW3+XU="
         }
       ]
     },

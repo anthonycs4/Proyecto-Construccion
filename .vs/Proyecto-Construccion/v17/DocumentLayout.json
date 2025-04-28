@@ -3,32 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\negocio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\negocio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\negocio\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\negocio\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\cotizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\cotizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\cotizacion\\cotizacionresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\cotizacion\\cotizacionresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\usuario\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\usuario\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\servicio\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,12 +62,28 @@
       "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\servicio\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\negocio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\negocio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\negocio\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\negocio\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\usuario\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\usuario\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\estadisticas\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,32 +94,24 @@
       "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\cotizacion\\historialcotizaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\cotizacion\\customquote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\cotizacion\\customquote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\serviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\cotizacion\\cotizacionresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\cotizacion\\cotizacionresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\controllers\\estadisticascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\controllers\\estadisticascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\cotizacion\\customquote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\cotizacion\\customquote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\models\\estadisticanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,14 +120,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\models\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\models\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\models\\estadisticaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,10 +136,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\models\\valoracioncotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\models\\valoracioncotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|solutionrelative:proyecto-construccion\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68963038-F07A-4CC4-9A80-1F30D7D070E1}|Proyecto-Construccion\\Proyecto-Construccion.csproj|c:\\users\\asus2\\github\\proyecto-construccion\\proyecto-construccion\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -158,24 +173,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Servicio\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Editar.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Servicio\\Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T13:51:13Z",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Proyecto-Construccion\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:39:21.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "NegocioController.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\NegocioController.cs",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\NegocioController.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\NegocioController.cs",
+              "RelativeToolTip": "Proyecto-Construccion\\Controllers\\NegocioController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAG8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:09:27.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Servicios.cshtml",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Servicios.cshtml",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Servicio\\Servicios.cshtml",
@@ -188,52 +216,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Registro.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Usuario\\Registro.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Usuario\\Registro.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Usuario\\Registro.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Usuario\\Registro.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T23:03:06.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Usuario\\Login.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Usuario\\Login.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Usuario\\Login.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Usuario\\Login.cshtml",
-              "ViewState": "AgIAAMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T03:57:14.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Reporte.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Estadisticas\\Reporte.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Estadisticas\\Reporte.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Estadisticas\\Reporte.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Estadisticas\\Reporte.cshtml",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAACcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T03:59:16.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "CotizacionController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\CotizacionController.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\CotizacionController.cs",
               "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\CotizacionController.cs",
               "RelativeToolTip": "Proyecto-Construccion\\Controllers\\CotizacionController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAA8AAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAANgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T20:37:04.483Z",
               "EditorCaption": ""
@@ -241,58 +230,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CotizacionResult.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\CotizacionResult.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Cotizacion\\CotizacionResult.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\CotizacionResult.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Cotizacion\\CotizacionResult.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAIAwwDEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T20:47:05.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Proyecto-Construccion\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:56:12.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Crear.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Servicio\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Crear.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Servicio\\Crear.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T13:50:50.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Negocio\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Negocio\\Index.cshtml",
               "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Negocio\\Index.cshtml",
               "RelativeToolTip": "Proyecto-Construccion\\Views\\Negocio\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-20T05:04:01.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Negocio.cs",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\Negocio.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Negocio.cs",
+              "RelativeToolTip": "Proyecto-Construccion\\Models\\Negocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:20:02.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T03:44:54.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOAUAAAAAAAAAAAewPMUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-28T03:46:03.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Servicio\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Editar.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Servicio\\Editar.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T13:51:13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Servicio\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Servicio\\Crear.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Servicio\\Crear.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T13:50:50.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Program.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Program.cs",
+              "RelativeToolTip": "Proyecto-Construccion\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:28:30.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "ServicioController.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\ServicioController.cs",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\ServicioController.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\ServicioController.cs",
+              "RelativeToolTip": "Proyecto-Construccion\\Controllers\\ServicioController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T03:10:29.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Producto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Producto\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T17:31:59.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Proyecto-Construccion\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T03:56:12.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Negocio\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Negocio\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Negocio\\Crear.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Negocio\\Crear.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T23:17:25.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Detalle.cshtml",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Negocio\\Detalle.cshtml",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Negocio\\Detalle.cshtml",
@@ -301,71 +381,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-05T01:15:40.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-26T07:04:19.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HistorialCotizaciones.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\HistorialCotizaciones.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Cotizacion\\HistorialCotizaciones.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\HistorialCotizaciones.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Cotizacion\\HistorialCotizaciones.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T06:57:57.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAC4CAAAAAAAAAAAAAC8BAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T22:37:29.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CustomQuote.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\CustomQuote.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Cotizacion\\CustomQuote.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\CustomQuote.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Cotizacion\\CustomQuote.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T18:55:21.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Program.cs",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Program.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Program.cs",
-              "RelativeToolTip": "Proyecto-Construccion\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T17:28:30.832Z",
               "EditorCaption": ""
             },
             {
@@ -384,19 +399,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ServicioController.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\ServicioController.cs",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\ServicioController.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\ServicioController.cs",
-              "RelativeToolTip": "Proyecto-Construccion\\Controllers\\ServicioController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Usuario.cs",
+              "RelativeToolTip": "Proyecto-Construccion\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:10:29.188Z",
+              "WhenOpened": "2025-03-18T03:58:36.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Reporte.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Estadisticas\\Reporte.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Estadisticas\\Reporte.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Estadisticas\\Reporte.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Estadisticas\\Reporte.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T03:59:16.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Usuario\\Registro.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Usuario\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Usuario\\Registro.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Usuario\\Registro.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T23:03:06.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Usuario\\Login.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T03:57:14.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC8BAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T22:37:29.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HistorialCotizaciones.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\HistorialCotizaciones.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Cotizacion\\HistorialCotizaciones.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\HistorialCotizaciones.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Cotizacion\\HistorialCotizaciones.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T06:57:57.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CotizacionResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\CotizacionResult.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Cotizacion\\CotizacionResult.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\CotizacionResult.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Cotizacion\\CotizacionResult.cshtml",
+              "ViewState": "AgIAAGIBAAAAAAAAAAAAANkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T20:47:05.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\ProductoController.cs",
@@ -409,33 +502,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NegocioController.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\NegocioController.cs",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\NegocioController.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\NegocioController.cs",
-              "RelativeToolTip": "Proyecto-Construccion\\Controllers\\NegocioController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:09:27.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "EstadisticasController.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\EstadisticasController.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Controllers\\EstadisticasController.cs",
               "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Controllers\\EstadisticasController.cs",
               "RelativeToolTip": "Proyecto-Construccion\\Controllers\\EstadisticasController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T03:58:38.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T07:04:19.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomQuote.cshtml",
+              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\CustomQuote.cshtml",
+              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Cotizacion\\CustomQuote.cshtml",
+              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Cotizacion\\CustomQuote.cshtml",
+              "RelativeToolTip": "Proyecto-Construccion\\Views\\Cotizacion\\CustomQuote.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:55:21.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "EstadisticaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\EstadisticaNegocio.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\EstadisticaNegocio.cs",
@@ -447,19 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Usuario.cs",
-              "RelativeToolTip": "Proyecto-Construccion\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T03:58:36.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "Cotizacion.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Cotizacion.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\Cotizacion.cs",
@@ -471,19 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Negocio.cs",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Negocio.cs",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\Negocio.cs",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Negocio.cs",
-              "RelativeToolTip": "Proyecto-Construccion\\Models\\Negocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T03:20:02.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "Servicio.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Servicio.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\Servicio.cs",
@@ -495,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\Producto.cs",
@@ -507,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "EstadisticaServicio.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\EstadisticaServicio.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\EstadisticaServicio.cs",
@@ -519,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "ValoracionCotizacion.cs",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Models\\ValoracionCotizacion.cs",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Models\\ValoracionCotizacion.cs",
@@ -531,19 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Producto\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\Producto\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\Producto\\Index.cshtml",
-              "RelativeToolTip": "Proyecto-Construccion\\Views\\Producto\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T17:31:59.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Pages\\Index.cshtml",
@@ -555,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Pages\\Shared\\_Layout.cshtml",
@@ -567,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Site.css",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Content\\Site.css",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Content\\Site.css",
@@ -579,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Pages\\_ViewStart.cshtml",
@@ -591,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Views\\_ViewStart.cshtml",
@@ -603,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Pages\\Error.cshtml",
@@ -615,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Proyecto-Construccion.csproj",
               "DocumentMoniker": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\Proyecto-Construccion.csproj",
               "RelativeDocumentMoniker": "Proyecto-Construccion\\Proyecto-Construccion.csproj",
@@ -623,7 +691,8 @@
               "RelativeToolTip": "Proyecto-Construccion\\Proyecto-Construccion.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-16T16:43:54.744Z"
+              "WhenOpened": "2025-03-16T16:43:54.744Z",
+              "EditorCaption": ""
             }
           ]
         }

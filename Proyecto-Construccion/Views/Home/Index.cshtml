@@ -1,0 +1,60 @@
+﻿@model List<Proyecto_Construccion.Models.Negocio>
+
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Negocios Disponibles</h1>
+
+    <div class="row">
+        @foreach (var negocio in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="imagen-container position-relative" id="imagenes-@negocio.Id" style="height: 200px; overflow: hidden;">
+                        <img src="@negocio.Imagenes.FirstOrDefault()"
+                             class="card-img-top imagen-carrusel"
+                             alt="Imagen del negocio"
+                             style="width: 100%; height: 100%; object-fit: contain; transition: opacity 0.5s ease-in-out; position: absolute; top: 0; left: 0;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@negocio.Nombre</h5>
+                        <p class="card-text">@(@negocio.Descripcion ?? "Sin descripción disponible.")</p>
+                        <p class="card-text"><small class="text-muted">@negocio.Direccion</small></p>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>
+<script>
+    const negociosImagenes = [];
+
+    @foreach (var negocio in Model)
+    {
+        if (negocio.Imagenes != null && negocio.Imagenes.Any())
+        {
+            <text>
+                        negociosImagenes.push({
+                            id: "@negocio.Id",
+                            imagenes: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(negocio.Imagenes))
+                        });
+            </text>
+        }
+    }
+
+    negociosImagenes.forEach(negocio => {
+        const contenedor = document.getElementById('imagenes-' + negocio.id);
+        if (!contenedor) return;
+
+        const imgTag = contenedor.querySelector('img');
+        let index = 0;
+
+        setInterval(() => {
+            index = (index + 1) % negocio.imagenes.length;
+            imgTag.src = negocio.imagenes[index];
+        }, 2000); // 2 segundos
+    });
+</script>

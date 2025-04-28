@@ -17,6 +17,9 @@
         public DbSet<ValoracionCotizacion> Tb_ValoracionCotizacion { get; set; }
         public DbSet<Estadistica> Tb_EstadisticasRecomendacion { get; set; }
         public DbSet<Cotizacion> Tb_CotizacionGuardada { get; set; }
+        public DbSet<ImagenNegocio> ImagenNegocios { get; set; }
+        public DbSet<ImagenServicio> ImagenServicios { get; set; }
+        public DbSet<Tb_EstadisticasIA> EstadisticasIA { get; set; }
 
 
 

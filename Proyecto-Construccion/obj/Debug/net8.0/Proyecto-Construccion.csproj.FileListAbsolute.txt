@@ -68,10 +68,16 @@ C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Proyecto-Construccion.props
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Proyecto-Construccion.props
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\Proyecto.55E917AE.Up2Date
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\Proyecto-Construccion.dll
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\refint\Proyecto-Construccion.dll
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\Proyecto-Construccion.pdb
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\Proyecto-Construccion.genruntimeconfig.cache
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\ref\Proyecto-Construccion.dll
+C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\web.config
+C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\appsettings.Development.json
+C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\appsettings.json
+C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\Proyecto-Construccion.deps.json
+C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\Proyecto-Construccion.runtimeconfig.json
+C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\Proyecto-Construccion.staticwebassets.endpoints.json
+C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
