@@ -10,18 +10,43 @@ namespace Proyecto_Construccion.Controllers
     {
         private readonly HttpClient _httpClient;
 
+        /// <summary>
+        /// Constructor que inicializa el cliente HTTP con la URL base del backend Flask.
+        /// </summary>
         public CotizacionController()
         {
             _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri("http://67.205.188.132:5000/api/   "); // Asegúrate de que esta ruta sea correcta
+            _httpClient.BaseAddress = new Uri("http://67.205.188.132:5000/api/"); // Ruta base del backend Flask
         }
 
+        /// <summary>
+        /// Vista de resultado de cotización (se muestra tras recibir la respuesta del backend).
+        /// </summary>
+        /// <returns>Vista vacía para mostrar cotizaciones.</returns>
         public ActionResult CotizacionResult()
         {
-
             return View();
         }
 
+        /// <summary>
+        /// RF03: Envia los parámetros del usuario al backend Flask para generar una cotización personalizada.
+        /// </summary>
+        /// <param name="dias_viaje">Número de días del viaje.</param>
+        /// <param name="presupuesto_usuario">Presupuesto máximo del usuario.</param>
+        /// <param name="motivo_viaje">Motivo del viaje (negocios, turismo, etc.).</param>
+        /// <param name="cantidad_personas">Cantidad de personas que viajarán.</param>
+        /// <param name="ubicacion_usuario">Ciudad o ubicación del usuario.</param>
+        /// <param name="fecha_inicio">Fecha de inicio del viaje.</param>
+        /// <param name="fecha_fin">Fecha de fin del viaje.</param>
+        /// <returns>Vista con los resultados de la cotización o errores si los hay.</returns>
+        /// 
+
+
+
+        /// <summary>
+        /// RF03: Generar cotizaciones personalizadas basadas en parámetros del usuario.
+        /// Controlador responsable de enviar datos del usuario al backend Flask para obtener cotizaciones.
+        /// </summary>
         [HttpPost]
         public async Task<ActionResult> CustomQuote(
             int dias_viaje,
@@ -79,7 +104,6 @@ namespace Proyecto_Construccion.Controllers
 
             return View("CustomQuote");
         }
-
         [HttpPost]
         public async Task<IActionResult> GuardarValoracion([FromBody] ValoracionCotizacion valoracion)
         {

@@ -80,4 +80,3 @@ C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\Proyecto-Construccion.deps.json
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\Proyecto-Construccion.runtimeconfig.json
 C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\bin\Debug\net8.0\publish\Proyecto-Construccion.staticwebassets.endpoints.json
-C:\Users\asus2\github\Proyecto-Construccion\Proyecto-Construccion\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

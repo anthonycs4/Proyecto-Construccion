@@ -14,7 +14,6 @@
         public bool Cochera { get; set; }
         public bool Cable { get; set; }
         public bool DesayunoIncluido { get; set; }
-        public string Fotos { get; set; }
 
         // Propiedades específicas para Servicios de Restaurante
         public string? TipoPlato { get; set; }
@@ -22,5 +21,7 @@
 
         // Propiedades específicas para Servicios Turísticos
         public string? Provincia { get; set; }
+        public List<string> Fotos { get; set; }
+
     }
 }

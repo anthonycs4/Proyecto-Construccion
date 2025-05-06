@@ -47,7 +47,7 @@
         localStorage.setItem("usuario", JSON.stringify(data)); // Guardar usuario en localStorage
         localStorage.setItem("tipoUsuario", data.tipoUsuarioId); // 🔥 Guardar Tipo de Usuario
         alert("Login exitoso");
-        window.location.href = "/Producto/Index"; // Redirige a la página principal
+        window.location.href = "/Home/Index"; // Redirige a la página principal
     } else {
         alert(data.mensaje || "Error en el login");
     }
@@ -69,7 +69,7 @@ async function loginDueño() {
         localStorage.setItem("usuario", JSON.stringify(data));
         localStorage.setItem("tipoUsuario", data.tipoUsuarioId); // 🔥 Guardar Tipo de Usuario
         alert("Login exitoso");
-        window.location.href = "/Producto/Index";
+        window.location.href = "/Home/Index";
     } else {
         alert(data.mensaje || "Error en el login");
     }

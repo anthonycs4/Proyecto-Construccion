@@ -1,5 +1,22 @@
 ﻿@model Proyecto_Construccion.Models.Servicio
 
+@* 
+    Vista: Editar Servicio
+    Modelo: Proyecto_Construccion.Models.Servicio
+
+    Esta vista permite editar un servicio dependiendo de su tipo (Hotel, Restaurante o Turismo).
+    Muestra dinámicamente campos específicos del tipo de servicio.
+    También permite subir nuevas imágenes y visualizar/eliminar imágenes actuales.
+
+    Campos manejados:
+    - Hotel: CantidadPersonas, WiFi, AguaCaliente, RoomService, Cochera, Cable, DesayunoIncluido
+    - Restaurante: Nombre, TipoPlato, Descripcion
+    - Turismo: Provincia, Nombre, Descripcion
+    - Común: Precio, Imágenes
+
+    La lógica de envío se realiza vía AJAX con FormData para enviar archivos y datos.
+*@
+
 @{
     ViewData["Title"] = "Editar Servicio";
     string tipoServicio = ViewBag.TipoServicio as string;
@@ -7,12 +24,13 @@
 
 <h2>Editar Servicio - @tipoServicio</h2>
 
-<form id="form-editar-servicio">
+<form id="form-editar-servicio" enctype="multipart/form-data">
     <input type="hidden" id="Id" value="@Model.Id" />
     <input type="hidden" id="TipoServicio" value="@tipoServicio" />
 
     @if (tipoServicio == "Hotel")
     {
+        <!-- Campos exclusivos del servicio tipo Hotel -->
         <div class="form-group">
             <label>Cantidad Personas</label>
             <input type="number" class="form-control" id="CantidadPersonas" value="@Model.CantidadPersonas" />
@@ -44,6 +62,7 @@
     }
     else if (tipoServicio == "Restaurante")
     {
+        <!-- Campos exclusivos del servicio tipo Restaurante -->
         <div class="form-group">
             <label>Nombre del Plato</label>
             <input type="text" class="form-control" id="Nombre" value="@Model.Nombre" />
@@ -59,6 +78,7 @@
     }
     else if (tipoServicio == "Turismo")
     {
+        <!-- Campos exclusivos del servicio tipo Turismo -->
         <div class="form-group">
             <label>Provincia</label>
             <input type="text" class="form-control" id="Provincia" value="@Model.Provincia" />
@@ -73,14 +93,30 @@
         </div>
     }
 
+    <!-- Campo común para todos los tipos de servicio -->
     <div class="form-group">
         <label>Precio</label>
         <input type="number" class="form-control" id="Precio" value="@Model.Precio" />
     </div>
 
+    <!-- Muestra las imágenes actuales -->
     <div class="form-group">
-        <label>Fotos (URL)</label>
-        <input type="text" class="form-control" id="Fotos" value="@Model.Fotos" />
+        <label>Fotos actuales</label>
+        <div id="fotos-actuales">
+            @foreach (var foto in Model.fotos)
+            {
+                <div>
+                    <img src="@foto" alt="Foto actual" width="100" />
+                    <button type="button" class="btn btn-danger btn-sm" onclick="eliminarFoto('@foto')">Eliminar</button>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Subida de nuevas imágenes -->
+    <div class="form-group">
+        <label>Fotos nuevas</label>
+        <input type="file" class="form-control" id="Fotos" name="Imagenes" multiple />
     </div>
 
     <button type="submit" class="btn btn-primary">Guardar</button>
@@ -89,43 +125,62 @@
 @section Scripts {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+        // Envía el formulario por AJAX
         $("#form-editar-servicio").submit(function (e) {
             e.preventDefault();
 
             const tipoServicio = $("#TipoServicio").val();
-            const servicio = {
-                id: parseInt($("#Id").val()),
-                tipoServicio: tipoServicio,
-                nombre: $("#Nombre").val() || "",
-                precio: parseFloat($("#Precio").val()) || 0,
-                cantidadPersonas: parseInt($("#CantidadPersonas").val()) || 0,
-                wiFi: $("#WiFi").is(":checked"),
-                aguaCaliente: $("#AguaCaliente").is(":checked"),
-                roomService: $("#RoomService").is(":checked"),
-                cochera: $("#Cochera").is(":checked"),
-                cable: $("#Cable").is(":checked"),
-                desayunoIncluido: $("#DesayunoIncluido").is(":checked"),
-                fotos: $("#Fotos").val() || "",
-                tipoPlato: $("#TipoPlato").val() || "",
-                descripcion: $("#Descripcion").val() || "",
-                provincia: $("#Provincia").val() || ""
-            };
+            const formData = new FormData();
+
+            formData.append("NegocioId", $("#Id").val());
+            formData.append("TipoServicio", tipoServicio);
+            formData.append("Nombre", $("#Nombre").val());
+            formData.append("Precio", $("#Precio").val());
+            formData.append("CantidadPersonas", $("#CantidadPersonas").val() || 0);
+            formData.append("WiFi", $("#WiFi").is(":checked"));
+            formData.append("AguaCaliente", $("#AguaCaliente").is(":checked"));
+            formData.append("RoomService", $("#RoomService").is(":checked"));
+            formData.append("Cochera", $("#Cochera").is(":checked"));
+            formData.append("Cable", $("#Cable").is(":checked"));
+            formData.append("DesayunoIncluido", $("#DesayunoIncluido").is(":checked"));
+            formData.append("TipoPlato", $("#TipoPlato").val() || "");
+            formData.append("Descripcion", $("#Descripcion").val() || "");
+            formData.append("Provincia", $("#Provincia").val() || "");
+
+            // Agregar imágenes al FormData
+            const fotos = $("#Fotos")[0].files;
+            for (let i = 0; i < fotos.length; i++) {
+                formData.append("Imagenes", fotos[i]);
+            }
 
             $.ajax({
                 url: "/Servicio/Editar",
                 method: "POST",
-                contentType: "application/json",
-                data: JSON.stringify(servicio),
+                data: formData,
+                processData: false,
+                contentType: false,
                 success: function () {
-                    alert("Servicio editado correctamente");
-                   window.location.href = document.referrer;
-
+                    window.location.href = document.referrer;
                 },
                 error: function (xhr) {
                     console.error(xhr.responseText);
-                    alert("Error al editar el servicio. Revisa la consola.");
                 }
             });
         });
+
+        // Para previsualizar fotos nuevas (no se usa directamente)
+        function getFotosFromInput() {
+            let fotos = [];
+            const files = $("#Fotos")[0].files;
+            for (let i = 0; i < files.length; i++) {
+                fotos.push(URL.createObjectURL(files[i]));
+            }
+            return fotos;
+        }
+
+        // Lógica para eliminar fotos actuales (esto debería conectarse a la API si se desea persistencia)
+        function eliminarFoto(foto) {
+            alert("Foto eliminada: " + foto);
+        }
     </script>
 }

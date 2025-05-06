@@ -16,8 +16,9 @@ namespace ProyectoAPI.Models
         public bool Cable { get; set; }
         public bool DesayunoIncluido { get; set; }
         public decimal Precio { get; set; }
-        public string Fotos { get; set; }
         public string Estado { get; set; }
         public Negocio Negocio { get; set; }
+        public List<ImagenServicioHotel> Imagenes { get; set; } = new(); // Navegación
+
     }
 }

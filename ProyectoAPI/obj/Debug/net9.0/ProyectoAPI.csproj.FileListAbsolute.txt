@@ -325,7 +325,6 @@ C:\Users\asus2\github\Proyecto-Construccion\ProyectoAPI\obj\Debug\net9.0\staticw
 C:\Users\asus2\github\Proyecto-Construccion\ProyectoAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ProyectoAPI.props
 C:\Users\asus2\github\Proyecto-Construccion\ProyectoAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ProyectoAPI.props
 C:\Users\asus2\github\Proyecto-Construccion\ProyectoAPI\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\asus2\github\Proyecto-Construccion\ProyectoAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\asus2\github\Proyecto-Construccion\ProyectoAPI\obj\Debug\net9.0\Proyecto.1482B326.Up2Date
 C:\Users\asus2\github\Proyecto-Construccion\ProyectoAPI\obj\Debug\net9.0\ProyectoAPI.dll
 C:\Users\asus2\github\Proyecto-Construccion\ProyectoAPI\obj\Debug\net9.0\refint\ProyectoAPI.dll

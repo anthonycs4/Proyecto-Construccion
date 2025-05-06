@@ -19,4 +19,7 @@ namespace ProyectoAPI.Models
         [ForeignKey("ServicioId")]
         public Servicio? Servicio { get; set; }
     }
+
+
+
 }

@@ -920,10 +920,6 @@
           "desayunoIncluido": {
             "type": "boolean"
           },
-          "fotos": {
-            "type": "string",
-            "nullable": true
-          },
           "tipoPlato": {
             "type": "string",
             "nullable": true
@@ -934,6 +930,13 @@
           },
           "provincia": {
             "type": "string",
+            "nullable": true
+          },
+          "fotos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
             "nullable": true
           }
         },

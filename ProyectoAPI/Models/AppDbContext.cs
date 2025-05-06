@@ -20,6 +20,9 @@
         public DbSet<ImagenNegocio> ImagenNegocios { get; set; }
         public DbSet<ImagenServicio> ImagenServicios { get; set; }
         public DbSet<Tb_EstadisticasIA> EstadisticasIA { get; set; }
+        public DbSet<ImagenServicioHotel> ImagenesServicioHotel { get; set; }
+        public DbSet<ImagenServicioRestaurante> ImagenesServicioRestaurante { get; set; }
+        public DbSet<ImagenServicioTuristico> ImagenesServicioTuristico { get; set; }
 
 
 

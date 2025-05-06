@@ -1,5 +1,10 @@
 ﻿@model IEnumerable<Proyecto_Construccion.Models.Servicio>
+
 @{
+    /// <summary>
+    /// RF02: Vista que muestra todos los servicios registrados de un negocio específico.
+    /// Esta vista incluye opciones para editar y eliminar servicios, cumpliendo con el requisito funcional RF02.
+    /// </summary>
     ViewData["Title"] = "Servicios";
     string tipoServicio = ViewBag.TipoServicio as string;
     int negocioId = ViewBag.NegocioId;
@@ -7,6 +12,10 @@
 
 <h2>Servicios de @tipoServicio</h2>
 
+<!--
+    RF02: Enlace para crear un nuevo servicio según el tipo (Hotel, Restaurante o Turismo).
+    Esto forma parte de la gestión dinámica en tiempo real para los dueños de negocio.
+-->
 <a asp-action="Crear" asp-route-negocioId="@negocioId" asp-route-tipoServicio="@tipoServicio" class="btn btn-primary">Crear Servicio</a>
 
 @if (Model.Any())
@@ -14,6 +23,10 @@
     <table class="table">
         <thead>
             <tr>
+                <!--
+                    RF02: Columnas dinámicas según el tipo de servicio.
+                    Si el servicio es de tipo 'Hotel', se muestran las comodidades específicas.
+                -->
                 @if (tipoServicio == "Hotel")
                 {
                     <th>Cantidad Personas</th>
@@ -67,10 +80,54 @@
                         <td>@servicio.Nombre</td>
                         <td>@servicio.Descripcion</td>
                     }
+
                     <td>@servicio.Precio.ToString("C")</td>
-                    <td><img src="@servicio.Fotos" width="100" /></td>
                     <td>
+                        @{
+                            /// <summary>
+                            /// Galería de fotos para el servicio actual.
+                            /// Las fotos se muestran en un modal Bootstrap.
+                            /// </summary>
+                            var fotos = servicio.fotos;
+                            var cantidadFotos = fotos?.Count ?? 0;
+                            var modalId = $"modalFotos_{servicio.Id}";
+                        }
+
+                        @if (cantidadFotos > 0)
+                        {
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#@modalId">@cantidadFotos foto(s)</a>
+
+                            <!-- Modal con galería de imágenes -->
+                            <div class="modal fade" id="@modalId" tabindex="-1" aria-labelledby="modalLabel_@servicio.Id" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalLabel_@servicio.Id">Galería de Fotos</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                        </div>
+                                        <div class="modal-body d-flex flex-wrap justify-content-center gap-2">
+                                            @foreach (var foto in fotos)
+                                            {
+                                                <img src="@foto" alt="Foto" class="img-thumbnail" style="max-width: 200px;" />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <span>Sin fotos</span>
+                        }
+                    </td>
+                    <td>
+                        <!--
+                            RF02: Botón para editar el servicio.
+                            La edición se realiza en tiempo real, especialmente para los servicios tipo 'Hotel'.
+                        -->
                         <a asp-action="Editar" asp-route-id="@servicio.Id" asp-route-tipoServicio="@tipoServicio" class="btn btn-warning">Editar</a>
+
+                        <!-- Botón para eliminar el servicio -->
                         <a asp-action="Eliminar" asp-route-id="@servicio.Id" asp-route-tipoServicio="@tipoServicio" class="btn btn-danger" onclick="return confirm('¿Seguro que deseas eliminar este servicio?');">Eliminar</a>
                     </td>
                 </tr>
@@ -80,5 +137,8 @@
 }
 else
 {
+    /// <summary>
+    /// Mensaje mostrado cuando no existen servicios registrados para el negocio.
+    /// </summary>
     <p>No hay servicios disponibles.</p>
 }

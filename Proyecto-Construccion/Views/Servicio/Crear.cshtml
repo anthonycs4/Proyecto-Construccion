@@ -6,144 +6,110 @@
     int negocioId = ViewBag.NegocioId ?? 0;
 }
 
+/// <summary>
+    /// Vista para crear un nuevo servicio asociado a un negocio.
+    ///
+</summary>
+/// <remarks>
+    /// El formulario se adapta dinámicamente según el tipo de servicio:
+    /// - Hotel: incluye opciones como WiFi, cochera, etc.
+    /// - Restaurante: permite ingresar nombre, tipo y descripción del plato.
+    /// - Turismo: solicita provincia, nombre y descripción del lugar turístico.
+    /// También permite subir múltiples imágenes asociadas al servicio.
+    ///
+</remarks>
+
 <h2>Crear Servicio - @tipoServicio</h2>
 
-<form asp-action="Crear" method="post">
-    <!-- Modificar para asegurar que se pasen correctamente -->
-    <input type="hidden" asp-for="NegocioId" value="@negocioId" />
-    <input type="hidden" asp-for="TipoServicio" value="@tipoServicio" />
+<form id="formServicio" enctype="multipart/form-data">
+    <!-- ID del negocio y tipo de servicio (ocultos) -->
+    <input type="hidden" name="NegocioId" value="@negocioId" />
+    <input type="hidden" name="TipoServicio" value="@tipoServicio" />
 
+    @* Campos según el tipo de servicio *@
     @if (tipoServicio == "Hotel")
     {
         <div class="form-group">
             <label for="CantidadPersonas">Cantidad Personas</label>
-            <input type="number" class="form-control" asp-for="CantidadPersonas" required />
+            <input type="number" class="form-control" name="CantidadPersonas" id="CantidadPersonas" required />
         </div>
-        <div class="form-group">
-            <label>WiFi</label>
-            <input type="checkbox" asp-for="WiFi" />
-        </div>
-        <div class="form-group">
-            <label>Agua Caliente</label>
-            <input type="checkbox" asp-for="AguaCaliente" />
-        </div>
-        <div class="form-group">
-            <label>Room Service</label>
-            <input type="checkbox" asp-for="RoomService" />
-        </div>
-        <div class="form-group">
-            <label>Cochera</label>
-            <input type="checkbox" asp-for="Cochera" />
-        </div>
-        <div class="form-group">
-            <label>Cable</label>
-            <input type="checkbox" asp-for="Cable" />
-        </div>
-        <div class="form-group">
-            <label>Desayuno Incluido</label>
-            <input type="checkbox" asp-for="DesayunoIncluido" />
-        </div>
+        <div><input type="checkbox" name="WiFi" id="WiFi" /> <label for="WiFi">WiFi</label></div>
+        <div><input type="checkbox" name="AguaCaliente" id="AguaCaliente" /> <label for="AguaCaliente">Agua Caliente</label></div>
+        <div><input type="checkbox" name="RoomService" id="RoomService" /> <label for="RoomService">Room Service</label></div>
+        <div><input type="checkbox" name="Cochera" id="Cochera" /> <label for="Cochera">Cochera</label></div>
+        <div><input type="checkbox" name="Cable" id="Cable" /> <label for="Cable">Cable</label></div>
+        <div><input type="checkbox" name="DesayunoIncluido" id="DesayunoIncluido" /> <label for="DesayunoIncluido">Desayuno Incluido</label></div>
     }
     else if (tipoServicio == "Restaurante")
     {
         <div class="form-group">
             <label for="Nombre">Nombre del Plato</label>
-            <input type="text" class="form-control" asp-for="Nombre" required />
+            <input type="text" class="form-control" name="Nombre" id="Nombre" required />
         </div>
         <div class="form-group">
             <label for="TipoPlato">Tipo de Plato</label>
-            <input type="text" class="form-control" asp-for="TipoPlato" required />
+            <input type="text" class="form-control" name="TipoPlato" id="TipoPlato" required />
         </div>
         <div class="form-group">
             <label for="Descripcion">Descripción</label>
-            <textarea class="form-control" asp-for="Descripcion"></textarea>
+            <textarea class="form-control" name="Descripcion" id="Descripcion"></textarea>
         </div>
     }
     else if (tipoServicio == "Turismo")
     {
         <div class="form-group">
             <label for="Provincia">Provincia</label>
-            <input type="text" class="form-control" asp-for="Provincia" required />
+            <input type="text" class="form-control" name="Provincia" id="Provincia" required />
         </div>
         <div class="form-group">
             <label for="Nombre">Nombre del Lugar</label>
-            <input type="text" class="form-control" asp-for="Nombre" required />
+            <input type="text" class="form-control" name="Nombre" id="Nombre" required />
         </div>
         <div class="form-group">
             <label for="Descripcion">Descripción</label>
-            <textarea class="form-control" asp-for="Descripcion"></textarea>
+            <textarea class="form-control" name="Descripcion" id="Descripcion"></textarea>
         </div>
     }
 
+    <!-- Campo común: precio -->
     <div class="form-group">
         <label for="Precio">Precio</label>
-        <input type="number" step="0.01" class="form-control" asp-for="Precio" required />
+        <input type="number" step="0.01" class="form-control" name="Precio" id="Precio" required />
     </div>
 
+    <!-- Subida de imágenes múltiples -->
     <div class="form-group">
-        <label for="Fotos">Fotos (URL)</label>
-        <input type="text" class="form-control" asp-for="Fotos" />
+        <label for="Imagenes">Fotos</label>
+        <input type="file" name="Imagenes" id="Imagenes" class="form-control" multiple />
     </div>
 
     <button type="submit" class="btn btn-success">Guardar</button>
 </form>
 
+<!-- Script para enviar el formulario por AJAX -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    $(document).ready(function () {
-        $("form").submit(function (event) {
-            event.preventDefault(); // Evita la recarga
+    /// <summary>
+    /// Envía el formulario de creación de servicio por AJAX.
+    /// </summary>
+    $("#formServicio").submit(function (e) {
+        e.preventDefault();
 
-            let tipoServicio = "@tipoServicio";
-            let negocioId = @negocioId;
-
-            let servicio = {
-                id: 0, // El ID siempre debe empezar en 0 si estás creando
-                negocioId: negocioId,
-                tipoServicio: tipoServicio,
-                nombre: "",
-                precio: parseFloat($("#Precio").val()) || 0,
-                cantidadPersonas: 0,
-                wiFi: $("#WiFi").is(":checked") || false,
-                aguaCaliente: $("#AguaCaliente").is(":checked") || false,
-                roomService: $("#RoomService").is(":checked") || false,
-                cochera: $("#Cochera").is(":checked") || false,
-                cable: $("#Cable").is(":checked") || false,
-                desayunoIncluido: $("#DesayunoIncluido").is(":checked") || false,
-                fotos: $("#Fotos").val() || "",
-                tipoPlato: "",
-                descripcion: "",
-                provincia: ""
-            };
-
-            // Asignar valores según tipo de servicio
-            if (tipoServicio === "Hotel") {
-                servicio.cantidadPersonas = parseInt($("#CantidadPersonas").val()) || 0;
-            } else if (tipoServicio === "Restaurante") {
-                servicio.nombre = $("#Nombre").val() || "";
-                servicio.tipoPlato = $("#TipoPlato").val() || "";
-                servicio.descripcion = $("#Descripcion").val() || "";
-            } else if (tipoServicio === "Turismo") {
-                servicio.nombre = $("#Nombre").val() || "";
-                servicio.descripcion = $("#Descripcion").val() || "";
-                servicio.provincia = $("#Provincia").val() || "";
+        let formData = new FormData(this);
+        $.ajax({
+            url: "/Servicio/Crear",
+            method: "POST",
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function () {
+                alert("Servicio creado con éxito");
+                window.location.href = "/Negocio/Index";
+            },
+            error: function (xhr) {
+                console.error(xhr.responseText);
+                alert("Error al crear el servicio.");
             }
-
-            // Enviar al backend
-            $.ajax({
-                url: "/Servicio/Crear",
-                type: "POST",
-                contentType: "application/json",
-                data: JSON.stringify(servicio),
-                success: function (response) {
-                    alert("Servicio creado con éxito.");
-                    window.location.href = "/Negocio/Index";
-                },
-                error: function (xhr) {
-                    console.error(xhr.responseText);
-                    alert("Error al crear el servicio. Revisa la consola.");
-                }
-            });
         });
     });
 </script>
