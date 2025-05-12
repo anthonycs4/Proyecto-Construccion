@@ -41,8 +41,68 @@
       "PackagePath": "staticwebassets\\imagenes\\negocios\\f78e7493-1934-4594-987e-bcec690e7a26.jpg"
     },
     {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay1.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\pocollay1.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay2.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\pocollay2.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay3.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\pocollay3.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices1.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\raices1.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices2.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\raices2.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices3.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\raices3.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\siena1.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\siena1.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\siena2.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\siena2.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\slider1.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\slider1.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\slider2.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\slider2.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina1.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\valentina1.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina2.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\valentina2.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina3.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\valentina3.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina4.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\valentina4.png"
+    },
+    {
       "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\1f35cb0c-c8d1-438c-be92-7d0f2cd857f9.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\1f35cb0c-c8d1-438c-be92-7d0f2cd857f9.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\341895d6-4272-4fd3-b676-a57ae085b988.png",
+      "PackagePath": "staticwebassets\\imagenes\\servicios\\341895d6-4272-4fd3-b676-a57ae085b988.png"
     },
     {
       "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\39adada5-ebb0-40b9-9f5a-b64db1c29aec.png",
@@ -81,12 +141,24 @@
       "PackagePath": "staticwebassets\\imagenes\\servicios\\c54947dd-e294-41e9-8d57-5bdadc65637b.png"
     },
     {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\d2e10101-6702-4c0b-afff-5d1b9e2046e1.png",
+      "PackagePath": "staticwebassets\\imagenes\\servicios\\d2e10101-6702-4c0b-afff-5d1b9e2046e1.png"
+    },
+    {
       "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\df937be9-17d6-4fd6-b830-942b9ba95c75.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\df937be9-17d6-4fd6-b830-942b9ba95c75.png"
     },
     {
       "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\e3484a8f-0630-481f-848c-2f52813c41c0.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\e3484a8f-0630-481f-848c-2f52813c41c0.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\e847f8ba-08aa-4417-b553-ab2d4c51cdca.png",
+      "PackagePath": "staticwebassets\\imagenes\\servicios\\e847f8ba-08aa-4417-b553-ab2d4c51cdca.png"
+    },
+    {
+      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\ee3905a9-1846-4f8d-bed7-980f488bf2e0.png",
+      "PackagePath": "staticwebassets\\imagenes\\servicios\\ee3905a9-1846-4f8d-bed7-980f488bf2e0.png"
     },
     {
       "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\js\\site.js",

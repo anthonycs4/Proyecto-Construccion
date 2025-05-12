@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Services\" />
-    <Folder Include="wwwroot\imagenes\negocios\" />
     <Folder Include="wwwroot\imagenes\servicios\" />
     <Folder Include="wwwroot\NewFolder1\" />
   </ItemGroup>

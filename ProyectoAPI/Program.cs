@@ -22,6 +22,8 @@ builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<ValoracionService>();
 builder.Services.AddScoped<CotizacionService>();
 builder.Services.AddScoped<EstadisticaService>();
+builder.Services.AddScoped<FeedbackService>();
+
 
 // CORS
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";

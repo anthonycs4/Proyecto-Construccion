@@ -34,7 +34,9 @@
                 <td>
                     <a href="@Url.Action("Editar", "Negocio", new { id = negocio.Id })" class="btn btn-warning">Editar</a>
                     <a href="@Url.Action("Servicios", "Servicio", new { negocioId = negocio.Id, tipoServicio = tipoNegocio })" class="btn btn-info">Ver Servicios</a>
+                    <a href="@Url.Action("VerFeedbacks", "Feedback", new { negocioId = negocio.Id })" class="btn btn-secondary">Ver Feedbacks</a>
                 </td>
+
             </tr>
         }
     </tbody>

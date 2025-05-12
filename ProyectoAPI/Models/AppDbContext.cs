@@ -23,6 +23,8 @@
         public DbSet<ImagenServicioHotel> ImagenesServicioHotel { get; set; }
         public DbSet<ImagenServicioRestaurante> ImagenesServicioRestaurante { get; set; }
         public DbSet<ImagenServicioTuristico> ImagenesServicioTuristico { get; set; }
+        public DbSet<Feedback> Feedbacks { get; set; }
+
 
 
 

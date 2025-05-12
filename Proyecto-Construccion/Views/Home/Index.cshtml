@@ -14,21 +14,75 @@
                 <div class="card shadow-sm">
                     <div class="imagen-container position-relative" id="imagenes-@negocio.Id" style="height: 200px; overflow: hidden;">
                         <img src="@negocio.Imagenes.FirstOrDefault()"
-                             class="card-img-top imagen-carrusel"
-                             alt="Imagen del negocio"
-                             style="width: 100%; height: 100%; object-fit: contain; transition: opacity 0.5s ease-in-out; position: absolute; top: 0; left: 0;">
+                        class="card-img-top imagen-carrusel"
+                        alt="Imagen del negocio"
+                        style="width: 100%; height: 100%; object-fit: contain; transition: opacity 0.5s ease-in-out; position: absolute; top: 0; left: 0;">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">@negocio.Nombre</h5>
                         <p class="card-text">@(@negocio.Descripcion ?? "Sin descripción disponible.")</p>
                         <p class="card-text"><small class="text-muted">@negocio.Direccion</small></p>
+
+                        <div class="feedback-btn-container" style="display:none">
+                            <a href="/feedback/crear/@negocio.Id" class="btn btn-primary">Dejar Feedback</a>
+                        </div>
+
+                        
+                        
                     </div>
                 </div>
             </div>
-
         }
     </div>
+
 </div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Obtener el tipo de usuario desde localStorage
+        const tipoUsuario = localStorage.getItem("tipoUsuario");
+
+        if (tipoUsuario) {
+            // Convertir a número para evitar problemas de comparación
+            const userType = Number(tipoUsuario);
+            const isAdmin = userType === 3;
+            const isUser = userType === 2;
+
+            // Ocultar los botones de registro y login si el usuario ha iniciado sesión
+            document.getElementById("registerBtn").style.display = "none";
+            document.getElementById("loginBtn").style.display = "none";
+
+            // Mostrar el menú de perfil
+            document.getElementById("profileDropdownContainer").style.display = "block";
+
+            // Si el usuario es ADMIN, mostrar Panel de Control y su historial de feedback
+            if (isAdmin) {
+                document.getElementById("adminPanel").style.display = "block";
+                document.getElementById("adminFeedback").style.display = "block";
+            }
+
+            // Si el usuario es normal, mostrar su historial de feedback
+            if (isUser) {
+                document.getElementById("userFeedback").style.display = "block";
+    document.querySelectorAll(".feedback-btn-container").forEach(el => {
+        el.style.display = "block";
+    });
+                    document.getElementById("CotizacionHistorial").style.display = "block";
+
+
+            }
+        }
+    });
+
+    function logout() {
+        // Eliminar datos del usuario almacenados en localStorage
+        localStorage.removeItem("usuario");
+        localStorage.removeItem("tipoUsuario");
+
+        // Redirigir al login después de cerrar sesión
+        window.location.href = "/Usuario/Login";
+    }
+</script>
+
 <script>
     const negociosImagenes = [];
 

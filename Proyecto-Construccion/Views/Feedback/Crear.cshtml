@@ -1,0 +1,96 @@
+﻿@model Proyecto_Construccion.Models.Feedback
+
+@{
+    ViewData["Title"] = "Dejar feedback";
+}
+
+<div class="container mt-5">
+    <h2>@ViewData["Title"]</h2>
+
+    <form id="feedbackForm">
+        @Html.HiddenFor(m => m.NegocioId)
+        @Html.HiddenFor(m => m.UsuarioId)
+
+        <div class="form-group mt-4">
+            <label for="Comentario">Comentario</label>
+            <textarea id="comentario" class="form-control" placeholder="Deja tu comentario" rows="4"></textarea>
+            <div id="comentario-error" class="text-danger"></div>
+        </div>
+
+        <div class="form-group mt-4">
+            <label>Calificación</label>
+            <div id="rating-stars">
+                @for (int i = 1; i <= 5; i++)
+                {
+                    <span class="star" data-value="@i">&#9734;</span>
+                }
+            </div>
+            <input type="hidden" id="calificacion" />
+            <div id="calificacion-error" class="text-danger"></div>
+        </div>
+
+        <button class="btn btn-success mt-4" type="button" onclick="enviarFeedback()">Registrar Feedback</button>
+
+        <input type="hidden" id="negocioId" value="@Model.NegocioId" />
+        <input type="hidden" id="usuarioId" value="@Model.UsuarioId" />
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        const stars = document.querySelectorAll("#rating-stars .star");
+        const ratingInput = document.getElementById("calificacion");
+
+        stars.forEach(star => {
+            star.addEventListener("click", () => {
+                const rating = star.getAttribute("data-value");
+                ratingInput.value = rating;
+
+                stars.forEach(s => {
+                    s.innerHTML = s.getAttribute("data-value") <= rating ? "★" : "☆";
+                });
+            });
+        });
+
+        async function enviarFeedback() {
+            const comentario = document.getElementById("comentario").value;
+            const calificacion = parseInt(document.getElementById("calificacion").value);
+            const negocioId = parseInt(document.getElementById("negocioId").value);
+            const usuarioId = parseInt(document.getElementById("usuarioId").value);
+
+            // Validación básica
+            document.getElementById("comentario-error").innerText = comentario ? "" : "Comentario requerido.";
+            document.getElementById("calificacion-error").innerText = calificacion >= 1 ? "" : "Selecciona una calificación.";
+
+            if (!comentario || !calificacion) return;
+
+            const data = {
+                NegocioId: negocioId,
+                UsuarioId: usuarioId,
+                Comentario: comentario,
+                Calificacion: calificacion
+                // No enviar NombreNegocio
+            };
+            console.log(data);
+
+            try {
+                const response = await fetch("/feedback/crear", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    window.location.href = "/"; // redirigir al inicio
+                } else {
+                    alert("Error al enviar el feedback.");
+                }
+            } catch (error) {
+                console.error("Error:", error);
+                alert("Error al conectar con el servidor.");
+            }
+        }
+    </script>
+}

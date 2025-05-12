@@ -48,6 +48,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProyectoAPI.Controllers.FeedbackController",
+    "Method": "Create",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProyectoAPI.DTOs.FeedbackDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.FeedbackController",
+    "Method": "ObtenerFeedbacksPorNegocio",
+    "RelativePath": "api/Feedback/negocio/{negocioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "negocioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoAPI.Controllers.FeedbackController",
+    "Method": "GetByUsuarioId",
+    "RelativePath": "api/Feedback/usuario/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProyectoAPI.Controllers.NegocioController",
     "Method": "GetNegocios",
     "RelativePath": "api/negocios",

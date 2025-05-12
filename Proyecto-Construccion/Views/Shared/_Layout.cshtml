@@ -213,15 +213,14 @@
         </nav>
 
         <!-- Botones visibles solo si el usuario NO ha iniciado sesión -->
-        @if (true) // Se controlará con JavaScript
-        {
+        
             <button id="registerBtn" class="login-btn" onclick="window.location.href='/Usuario/Registro'">
                 Registrarse
             </button>
             <button id="loginBtn" class="login-btn" onclick="window.location.href='/Usuario/Login'">
                 Login
             </button>
-        }
+        
 
         <!-- Botones visibles solo si el usuario HA iniciado sesión -->
         @if (true) // Controlado mediante JavaScript
@@ -345,6 +344,7 @@
                     // Si el usuario es normal, mostrar su historial de feedback
                     if (isUser) {
                         document.getElementById("userFeedback").style.display = "block";
+                        document.getElementById("Feedback").style.display = "block";
                         document.getElementById("CotizacionHistorial").style.display = "block";
 
                         
