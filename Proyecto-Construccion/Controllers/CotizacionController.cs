@@ -113,7 +113,7 @@ namespace Proyecto_Construccion.Controllers
             try
             {
                 // 👉 Cambiado a la URL correcta de tu API ASP.NET
-                var response = await _httpClient.PostAsync("http://http://localhost:5279/api/ValoracionCotizacion", content);
+                var response = await _httpClient.PostAsync("https://app-back-valverde-cano.azurewebsites.net/api/ValoracionCotizacion", content);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -132,7 +132,7 @@ namespace Proyecto_Construccion.Controllers
         }
         public async Task<IActionResult> ObtenerPromedioValoracion(int cotizacionId)
         {
-            var response = await _httpClient.GetAsync("http://http://localhost:5279/api/ValoracionCotizacion/promedio");
+            var response = await _httpClient.GetAsync("https://app-back-valverde-cano.azurewebsites.net/api/ValoracionCotizacion/promedio");
 
             if (response.IsSuccessStatusCode)
             {
@@ -198,7 +198,7 @@ namespace Proyecto_Construccion.Controllers
 
                 // Log antes de hacer la petición a la API
                 Console.WriteLine("Enviando datos al API...");
-                var response = await _httpClient.PostAsync("http://http://localhost:5279/api/Cotizacion/guardar", content);
+                var response = await _httpClient.PostAsync("https://app-back-valverde-cano.azurewebsites.net/api/Cotizacion/guardar", content);
 
                 // Log de la respuesta
                 if (response.IsSuccessStatusCode)
@@ -243,7 +243,7 @@ namespace Proyecto_Construccion.Controllers
             try
             {
                 // Construir la URL completa para la API
-                var apiUrl = $"http://http://localhost:5279/api/Cotizacion/usuario/{usuario.Id}"; // Base URL + endpoint
+                var apiUrl = $"https://app-back-valverde-cano.azurewebsites.net/api/Cotizacion/usuario/{usuario.Id}"; // Base URL + endpoint
                 TempData["ApiUrl"] = apiUrl;  // Guardar la URL completa en TempData para depuración
 
                 // Hacer la solicitud a la API para obtener el historial de cotizaciones del usuario

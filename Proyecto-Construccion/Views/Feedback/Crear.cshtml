@@ -59,7 +59,7 @@
             const usuarioId = parseInt(document.getElementById("usuarioId").value);
 
             // Validación básica
-            document.getElementById("comentario-error").innerText = comentario ? "" : "Comentario requerido.";
+            document.getElementById("comentario-error").innerText = comentario ? "" : "Por favor, completa el comentario.";
             document.getElementById("calificacion-error").innerText = calificacion >= 1 ? "" : "Selecciona una calificación.";
 
             if (!comentario || !calificacion) return;
@@ -83,6 +83,7 @@
                 });
 
                 if (response.ok) {
+                    alert("Gracias por tu feedback, ¡nos ayuda a mejorar!");
                     window.location.href = "/"; // redirigir al inicio
                 } else {
                     alert("Error al enviar el feedback.");

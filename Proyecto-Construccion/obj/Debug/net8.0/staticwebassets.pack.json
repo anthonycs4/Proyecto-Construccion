@@ -1,395 +1,399 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Proyecto-Construccion.bundle.scp.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Proyecto-Construccion.bundle.scp.css",
       "PackagePath": "staticwebassets\\Proyecto-Construccion.q3n2i5b42a.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\6f973ee6-3047-4dd9-bd15-abd64aae9564.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\6f973ee6-3047-4dd9-bd15-abd64aae9564.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\6f973ee6-3047-4dd9-bd15-abd64aae9564.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\895d4441-3ef9-4f8e-9d04-e73dcf902e04.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\85dcdb43-7722-486c-8fc0-1bf903f134c8.png",
+      "PackagePath": "staticwebassets\\imagenes\\negocios\\85dcdb43-7722-486c-8fc0-1bf903f134c8.png"
+    },
+    {
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\895d4441-3ef9-4f8e-9d04-e73dcf902e04.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\895d4441-3ef9-4f8e-9d04-e73dcf902e04.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d8a012e1-8664-4824-b754-a712c1524da7.jpg",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\d8a012e1-8664-4824-b754-a712c1524da7.jpg",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\d8a012e1-8664-4824-b754-a712c1524da7.jpg"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f1310deb-b145-48ec-9672-9e0fde9b1059.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f1310deb-b145-48ec-9672-9e0fde9b1059.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\f1310deb-b145-48ec-9672-9e0fde9b1059.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f78e7493-1934-4594-987e-bcec690e7a26.jpg",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\f78e7493-1934-4594-987e-bcec690e7a26.jpg",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\f78e7493-1934-4594-987e-bcec690e7a26.jpg"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay1.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay1.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\pocollay1.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay2.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay2.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\pocollay2.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay3.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\pocollay3.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\pocollay3.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices1.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices1.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\raices1.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices2.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices2.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\raices2.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices3.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\raices3.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\raices3.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\siena1.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\siena1.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\siena1.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\siena2.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\siena2.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\siena2.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\slider1.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\slider1.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\slider1.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\slider2.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\slider2.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\slider2.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina1.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina1.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\valentina1.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina2.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina2.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\valentina2.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina3.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina3.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\valentina3.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina4.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\negocios\\valentina4.png",
       "PackagePath": "staticwebassets\\imagenes\\negocios\\valentina4.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\1f35cb0c-c8d1-438c-be92-7d0f2cd857f9.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\1f35cb0c-c8d1-438c-be92-7d0f2cd857f9.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\1f35cb0c-c8d1-438c-be92-7d0f2cd857f9.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\341895d6-4272-4fd3-b676-a57ae085b988.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\341895d6-4272-4fd3-b676-a57ae085b988.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\341895d6-4272-4fd3-b676-a57ae085b988.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\39adada5-ebb0-40b9-9f5a-b64db1c29aec.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\39adada5-ebb0-40b9-9f5a-b64db1c29aec.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\39adada5-ebb0-40b9-9f5a-b64db1c29aec.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\3c66131a-2401-4814-a0d2-5888a7ee8a9f.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\3c66131a-2401-4814-a0d2-5888a7ee8a9f.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\3c66131a-2401-4814-a0d2-5888a7ee8a9f.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\4145fa0b-a640-47ad-b75a-6adca6557bd4.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\4145fa0b-a640-47ad-b75a-6adca6557bd4.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\4145fa0b-a640-47ad-b75a-6adca6557bd4.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\4604cbed-8fb7-48b7-b4d7-e08bdcc21eb9.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\4604cbed-8fb7-48b7-b4d7-e08bdcc21eb9.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\4604cbed-8fb7-48b7-b4d7-e08bdcc21eb9.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\5f57c730-3017-469f-9a51-d83df04b0d0a.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\5f57c730-3017-469f-9a51-d83df04b0d0a.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\5f57c730-3017-469f-9a51-d83df04b0d0a.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\6aaa3bd4-230c-4bbd-87cc-6ad9f558ff52.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\6aaa3bd4-230c-4bbd-87cc-6ad9f558ff52.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\6aaa3bd4-230c-4bbd-87cc-6ad9f558ff52.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\95193c9c-2ffa-4b47-b5b8-e60f480e774e.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\95193c9c-2ffa-4b47-b5b8-e60f480e774e.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\95193c9c-2ffa-4b47-b5b8-e60f480e774e.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\bb2b7a18-2b12-47d9-82f8-d5dfa5dac7f2.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\bb2b7a18-2b12-47d9-82f8-d5dfa5dac7f2.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\bb2b7a18-2b12-47d9-82f8-d5dfa5dac7f2.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\c54947dd-e294-41e9-8d57-5bdadc65637b.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\c54947dd-e294-41e9-8d57-5bdadc65637b.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\c54947dd-e294-41e9-8d57-5bdadc65637b.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\d2e10101-6702-4c0b-afff-5d1b9e2046e1.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\d2e10101-6702-4c0b-afff-5d1b9e2046e1.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\d2e10101-6702-4c0b-afff-5d1b9e2046e1.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\df937be9-17d6-4fd6-b830-942b9ba95c75.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\df937be9-17d6-4fd6-b830-942b9ba95c75.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\df937be9-17d6-4fd6-b830-942b9ba95c75.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\e3484a8f-0630-481f-848c-2f52813c41c0.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\e3484a8f-0630-481f-848c-2f52813c41c0.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\e3484a8f-0630-481f-848c-2f52813c41c0.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\e847f8ba-08aa-4417-b553-ab2d4c51cdca.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\e847f8ba-08aa-4417-b553-ab2d4c51cdca.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\e847f8ba-08aa-4417-b553-ab2d4c51cdca.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\ee3905a9-1846-4f8d-bed7-980f488bf2e0.png",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\imagenes\\servicios\\ee3905a9-1846-4f8d-bed7-980f488bf2e0.png",
       "PackagePath": "staticwebassets\\imagenes\\servicios\\ee3905a9-1846-4f8d-bed7-980f488bf2e0.png"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\Proyecto-Construccion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -2,11 +2,11 @@
     ViewData["Title"] = "Registro";
 }
 
-<h2>Registro de Usuario</h2>
+<h2>Registro</h2>
 
 <ul class="nav nav-tabs" id="registroTab" role="tablist">
     <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="cliente-tab" data-bs-toggle="tab" data-bs-target="#cliente" type="button" role="tab">Cliente</button>
+        <button class="nav-link active" id="cliente-tab" data-bs-toggle="tab" data-bs-target="#cliente" type="button" role="tab">Turista</button>
     </li>
     <li class="nav-item" role="presentation">
         <button class="nav-link" id="dueno-tab" data-bs-toggle="tab" data-bs-target="#dueno" type="button" role="tab">Dueño</button>
@@ -16,11 +16,11 @@
 <div class="tab-content mt-3">
     <div class="tab-pane fade show active" id="cliente" role="tabpanel">
         <form id="formCliente">
-            <input type="text" name="DniRut" placeholder="DNI" class="form-control mb-2" required />
+            @* <input type="text" name="DniRut" placeholder="DNI o RUT" class="form-control mb-2"  /> *@
             <input type="text" name="NombresCompleto" placeholder="Nombres Completos" class="form-control mb-2" required />
             <input type="email" name="Correo" placeholder="Correo" class="form-control mb-2" required />
             <input type="password" name="Contraseña" placeholder="Contraseña" class="form-control mb-2" required />
-            <button type="submit" class="btn btn-primary">Registrar Cliente</button>
+            <button type="submit" class="btn btn-primary">Registrar </button>
         </form>
     </div>
 
@@ -31,7 +31,7 @@
             <input type="text" name="NombresCompleto" placeholder="Nombres Completos" class="form-control mb-2" required />
             <input type="email" name="Correo" placeholder="Correo" class="form-control mb-2" required />
             <input type="password" name="Contraseña" placeholder="Contraseña" class="form-control mb-2" required />
-            <button type="submit" class="btn btn-success">Registrar Dueño</button>
+            <button type="submit" class="btn btn-success">Registrar </button>
         </form>
     </div>
 </div>
@@ -49,6 +49,8 @@
 
             const result = await response.json();
             alert(result.mensaje);
+            window.location.href = "/Usuario/Login"; // redirige a la nueva vista
+
         });
 
         document.getElementById("formDueno").addEventListener("submit", async function (e) {
@@ -62,6 +64,7 @@
 
             const result = await response.json();
             alert(result.mensaje);
+            window.location.href = "/Usuario/Login";
         });
     </script>
 }

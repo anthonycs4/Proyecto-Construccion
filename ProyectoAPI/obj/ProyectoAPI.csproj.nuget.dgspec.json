@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj": {}
+    "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj": {
+    "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj",
         "projectName": "ProyectoAPI",
-        "projectPath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj",
-        "packagesPath": "C:\\Users\\asus2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus2\\github\\Proyecto-Construccion\\ProyectoAPI\\obj\\",
+        "projectPath": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\ProyectoAPI\\ProyectoAPI.csproj",
+        "packagesPath": "C:\\Users\\Anthony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anthony\\github\\Proyecto-Construccion\\ProyectoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\asus2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anthony\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

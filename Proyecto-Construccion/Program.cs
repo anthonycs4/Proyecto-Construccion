@@ -15,7 +15,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddHttpClient();
 builder.Services.AddHttpClient("ApiClient", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:5279/api/");
+    client.BaseAddress = new Uri("https://app-back-valverde-cano.azurewebsites.net/api/");
 })
 .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
 {

@@ -41,8 +41,8 @@
                 <th>Presupuesto Restante (€)</th>
                 <th>Porcentaje del Presupuesto (%)</th>
                 <th>Ajuste por fechas</th>
-            <th>Acciones</th>
-
+@*             <th>Acciones</th>
+ *@
             </tr>
         </thead>
         <tbody>
@@ -95,8 +95,8 @@
                     <!-- Muestra si hubo un ajuste especial en los costos debido a las fechas del viaje -->
                     <td>@cotizacion.AjusteEspecial</td>
                 <td>
-                    <button type="button" class="btn btn-primary btn-sm" onclick="guardarCotizacion(@cotizacion.Id)">Guardar</button>
-                    <input type="hidden" id="hotel_@cotizacion.Id" value="@cotizacion.HotelId">
+@*                     <button type="button" class="btn btn-primary btn-sm" onclick="guardarCotizacion(@cotizacion.Id)">Guardar</button>
+ *@                    <input type="hidden" id="hotel_@cotizacion.Id" value="@cotizacion.HotelId">
                     <input type="hidden" id="hotelName_@cotizacion.Id" value="@cotizacion.Hotel">
                     <input type="hidden" id="restauranteName_@cotizacion.Id" value="@cotizacion.Restaurante">
                     <input type="hidden" id="lugarName_@cotizacion.Id" value="@cotizacion.Lugar">
@@ -215,7 +215,7 @@
 
             try {
                 // Reemplaza la URL de la API con la URL real de tu endpoint para guardar la cotización
-                const response = await fetch('http://http://localhost:5279/api/Cotizacion/guardar', {
+                const response = await fetch('https://app-back-valverde-cano.azurewebsites.net/api/Cotizacion/guardar', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

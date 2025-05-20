@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\imagenes\negocios\6f973ee6-3047-4dd9-bd15-abd64aae9564.png
+wwwroot\imagenes\negocios\85dcdb43-7722-486c-8fc0-1bf903f134c8.png
 wwwroot\imagenes\negocios\895d4441-3ef9-4f8e-9d04-e73dcf902e04.png
 wwwroot\imagenes\negocios\8bd2b3c1-168e-498b-a6cb-8dbe2fddca37.jpeg
 wwwroot\imagenes\negocios\d64bd6a2-6c5d-45fd-a538-b0ab9e70fe62.jpeg
