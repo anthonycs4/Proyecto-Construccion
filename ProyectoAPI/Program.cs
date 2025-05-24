@@ -10,7 +10,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Conexión a SQL Server
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+// 1. Agregar política CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirTodo", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 // Controladores
 builder.Services.AddControllers();
 
@@ -25,23 +34,6 @@ builder.Services.AddScoped<EstadisticaService>();
 builder.Services.AddScoped<FeedbackService>();
 
 
-// CORS
-var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(MyAllowSpecificOrigins, policy =>
-    {
-        policy.WithOrigins(
-            "https://localhost:44312",
-            "http://localhost:5279",
-            "https://app-front-valverde-cano.azurewebsites.net"
-        )
-        .AllowAnyHeader()
-        .AllowAnyMethod()
-        .AllowCredentials();
-    });
-});
-
 // Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -52,7 +44,9 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseCors(MyAllowSpecificOrigins);
+
+// 2. Usar CORS
+app.UseCors("PermitirTodo");
 app.UseAuthorization();
 app.MapControllers();
 
